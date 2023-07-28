@@ -20,9 +20,13 @@
 .nav {
   justify-self: right;
   align-self: end;
+  width: 40%;
 }
 .headerLink {
   color: white;
+  flex-wrap: wrap;
+  /* border: 2px solid red; */
+  margin: 0px 10px 0px 10px;
 }
 .headerLink:hover {
   color: rgb(106, 186, 232);
@@ -30,11 +34,11 @@
   border-bottom: 1.5px dashed rgb(106, 186, 232);
 }
 @media (max-width: 700px) {
-  /* .headerContainer {
+  .header-container {
     display: block;
-  } */
-  /* .nav {
+  }
+  .nav {
     margin-top: 15px;
     display: flex;
-  } */
+  }
 }
