@@ -1,0 +1,40 @@
+.header {
+  margin: 0em 0 2em;
+}
+.h2 {
+  margin-bottom: -5px;
+  width: 60%;
+}
+.title {
+  color: var(--white);
+  text-decoration: none;
+}
+.title:hover {
+  color: var(--blue);
+}
+.headerContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nav {
+  justify-self: right;
+  align-self: end;
+}
+.headerLink {
+  color: white;
+}
+.headerLink:hover {
+  color: rgb(106, 186, 232);
+  padding-bottom: 3px;
+  border-bottom: 1.5px dashed rgb(106, 186, 232);
+}
+@media (max-width: 700px) {
+  /* .headerContainer {
+    display: block;
+  } */
+  /* .nav {
+    margin-top: 15px;
+    display: flex;
+  } */
+}

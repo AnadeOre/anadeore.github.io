@@ -1,95 +1,89 @@
-import Image from 'next/image'
-import styles from './page.module.css'
-
+import Image from 'next/image';
+import styles from './styles/page.module.css';
+import Footer from './components/Footer';
+import Link from 'next/link';
 export default function Home() {
   return (
     <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+      <h1>About</h1>
+      <div class={styles.infoContainer}>
+        <Image
+          src='/Image.jpeg'
+          class='profile-pic'
+          width={400}
+          height={900}
+          alt='Profile picture'
+        />
+        <div className={styles.description}>
+          <p>
+            I am currently a Maths Ph.D. student at the University of St.
+            Andrews, supervised by{' '}
+            <Link
+              className='linkDecor'
+              href='https://jonathan-fraser.github.io/homepage/'>
+              Jonathan Fraser
+            </Link>{' '}
+            and{' '}
+            <Link
+              className='linkDecor'
+              href='https://kennethfalconer.github.io'>
+              Kenneth Falconer
+            </Link>
+            . I completed my undergraduate studes at the Universidad Nacional
+            del Litoral, in Argentina.
+          </p>
+          <p>
+            My interests include fractal geometry, Fourier analysis and
+            dimension theory, specifically in the connection between the three.
+          </p>
+          <br />
+          <p>
+            I'm the creator behind the{' '}
+            <Link
+              href='https://www.youtube.com/problemathic'
+              target='_blank'
+              className='linkDecor'>
+              Problemathic YouTube channel
+            </Link>{' '}
+            and{' '}
+            <Link
+              href='http://instagram.com/problemathicvideos/'
+              target='_blank'
+              className='linkDecor'>
+              Instagram
+            </Link>
+            . I also enjoy having small{' '}
+            <Link
+              href='https://github.com/AnadeOre'
+              target='_blank'
+              className='linkDecor'>
+              programming projects
+            </Link>
+            , mostly in web development. I'm also a bartender, so I always enjoy
+            experimenting and making cocktails.
+          </p>
         </div>
       </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
+      <br />
+      <address className={styles.address}>
+        <Link
+          className='linkDecor'
+          href='mailto:aedo1@st-andrews.ac.uk'
+          target='_blank'>
+          aedo1@st-andrews.ac.uk
+        </Link>
+        <br />
+        School of Mathematics and Statistics
+        <br />
+        University of St. Andrews
+        <br />
+        St. Andrews
+        <br />
+        KY16 9SS
+        <br />
+        Scotland
+      </address>
+      <Footer />
     </main>
-  )
+  );
 }
