@@ -5,10 +5,10 @@ const Footer = () => {
   return (
     <footer className='footer'>
       <Hr />
-      <div class='footer-wrapper'>
-        <div class='copyright-wrapper'>
+      <div className='footer-wrapper'>
+        <div className='copyright-wrapper'>
           <span>Copyright &#169; {today.getFullYear()}</span>
-          <span class='separator'>&nbsp;|&nbsp;</span>
+          <span className='separator'>&nbsp;|&nbsp;</span>
           <span>All rights reserved.</span>
         </div>
       </div>
