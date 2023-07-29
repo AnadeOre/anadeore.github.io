@@ -39,9 +39,11 @@ content {
   line-height: 1.6;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
+.profile-pic {
+  object-fit: contain;
+  width: 60% !important;
+  position: relative !important;
+  height: unset !important;
 }
 
 .border-skin-line {

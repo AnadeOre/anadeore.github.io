@@ -6,12 +6,11 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <h1>About</h1>
-      <div class={styles.infoContainer}>
+      <div className={styles.infoContainer}>
         <Image
           src='/Image.jpeg'
-          class='profile-pic'
-          width={400}
-          height={900}
+          className='profile-pic'
+          layout='fill'
           alt='Profile picture'
         />
         <div className={styles.description}>
