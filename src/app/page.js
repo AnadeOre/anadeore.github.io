@@ -30,11 +30,11 @@ export default function Home() {
               href='https://kennethfalconer.github.io'>
               Kenneth Falconer
             </Link>
-            . I completed my undergraduate studes at the Universidad Nacional
-            del Litoral, in Argentina.
+            . I completed my undergraduate studies in mathemathics at the
+            Universidad Nacional del Litoral, in Argentina.
           </p>
           <p>
-            My interests include fractal geometry, Fourier analysis and
+            My research interests include fractal geometry, Fourier analysis and
             dimension theory, specifically in the connection between the three.
           </p>
           <br />
@@ -53,7 +53,7 @@ export default function Home() {
               className='linkDecor'>
               Instagram
             </Link>
-            . I also enjoy having small{' '}
+            . I enjoy having small{' '}
             <Link
               href='https://github.com/AnadeOre'
               target='_blank'
