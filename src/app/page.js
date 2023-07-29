@@ -61,7 +61,10 @@ export default function Home() {
               programming projects
             </Link>
             , mostly in web development. My lastest project "
-            <Link target='_blank' href='https://animaths.vercel.app'>
+            <Link
+              target='_blank'
+              className='linkDecor'
+              href='https://animaths.vercel.app'>
               AniMaths
             </Link>
             " uses NextJS and a plotting library for react to explain
