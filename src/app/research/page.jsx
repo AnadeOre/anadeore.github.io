@@ -11,7 +11,7 @@ const Page = () => {
           description='For the title "Licenciada en matemática aplicada" at UNL. Supervised by
           Marisa Toschi and Mauricio Ramseyer.'
           linkURL='/UndergradDissertation.pdf'
-          linkDesc='Espacios de tipo homogéneo y metrización'
+          linkDesc='Espacios de Tipo Homogéneo y Metrización'
         />
       </ul>
     </div>
