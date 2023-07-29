@@ -19,7 +19,10 @@ const Header = () => {
           <Link className={styles.headerLink} href='teaching'>
             Teaching
           </Link>
-          <Link className={styles.headerLink} href='research'>
+          <Link
+            className={styles.headerLink}
+            href='/EnglishCV.pdf'
+            target='_blank'>
             CV
           </Link>
         </nav>
