@@ -21,6 +21,7 @@
   justify-self: right;
   align-self: end;
   width: 40%;
+  /* border: 2px solid red; */
 }
 .headerLink {
   color: white;
@@ -33,12 +34,9 @@
   padding-bottom: 3px;
   border-bottom: 1.5px dashed var(--blue);
 }
-@media (max-width: 700px) {
-  .header-container {
-    display: block;
-  }
+@media (max-width: 650px) {
   .nav {
-    margin-top: 15px;
     display: flex;
+    flex-direction: column;
   }
 }
