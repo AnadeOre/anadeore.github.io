@@ -29,9 +29,9 @@
   margin: 0px 10px 0px 10px;
 }
 .headerLink:hover {
-  color: rgb(106, 186, 232);
+  color: var(--blue);
   padding-bottom: 3px;
-  border-bottom: 1.5px dashed rgb(106, 186, 232);
+  border-bottom: 1.5px dashed var(--blue);
 }
 @media (max-width: 700px) {
   .header-container {

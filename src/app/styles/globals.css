@@ -18,13 +18,12 @@ body {
   color: var(--white);
 }
 a {
-  /* color: var(--orange); */
-  color: rgb(106, 186, 232);
+  color: var(--blue);
   text-decoration: none;
 }
 .linkDecor:hover {
   padding-bottom: 3px;
-  border-bottom: 1.5px dashed rgb(106, 186, 232);
+  border-bottom: 1.5px dashed var(--blue);
 }
 
 .invisible-link {
