@@ -1,5 +1,7 @@
 .infoContainer {
   display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .description {
   align-self: center;
@@ -13,10 +15,25 @@
   margin-left: -15px;
   margin-top: -30px;
 }
+/* 
+.profilePic {
+  object-fit: contain !important;
+  width: 40% !important;
+  position: relative;
+  height: unset;
+} */
 
-@media (max-width: 800px) {
+.profilePic {
+  width: 500px;
+  height: auto;
+}
+
+@media (min-width: 800px) {
   .infoContainer {
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+  }
+  .profilePic {
+    width: 50vw;
+    height: auto;
   }
 }

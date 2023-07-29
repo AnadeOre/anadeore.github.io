@@ -9,8 +9,10 @@ export default function Home() {
       <div className={styles.infoContainer}>
         <Image
           src='/Image.jpeg'
-          className='profile-pic'
-          layout='fill'
+          className={styles.profilePic}
+          width={1004}
+          height={1144}
+          layout='intrinsic'
           alt='Profile picture'
         />
         <div className={styles.description}>
