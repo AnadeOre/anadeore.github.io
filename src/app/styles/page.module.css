@@ -24,7 +24,7 @@
 } */
 
 .profilePic {
-  width: 500px;
+  width: 400px;
   height: auto;
 }
 
@@ -33,7 +33,7 @@
     flex-direction: row;
   }
   .profilePic {
-    width: 500px;
+    width: 350;
     height: auto;
   }
 }
