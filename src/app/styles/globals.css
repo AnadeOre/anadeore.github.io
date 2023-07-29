@@ -41,7 +41,7 @@ content {
 
 .profile-pic {
   object-fit: contain;
-  width: 60% !important;
+  width: 40% !important;
   position: relative !important;
   height: unset !important;
 }
