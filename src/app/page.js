@@ -60,7 +60,12 @@ export default function Home() {
               className='linkDecor'>
               programming projects
             </Link>
-            , mostly in web development. I'm also a bartender, so I always enjoy
+            , mostly in web development. My lastest project "
+            <Link target='_blank' href='https://animaths.vercel.app'>
+              AniMaths
+            </Link>
+            " uses NextJS and a plotting library for react to explain
+            mathematics with animations. I'm also a bartender, so I always enjoy
             experimenting and making cocktails.
           </p>
         </div>
