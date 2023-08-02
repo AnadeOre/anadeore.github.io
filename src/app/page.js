@@ -53,7 +53,7 @@ export default function Home() {
               className='linkDecor'>
               Instagram
             </Link>
-            . I usually have small{' '}
+            . In addition to this, my hobbies include having small{' '}
             <Link
               href='https://github.com/AnadeOre'
               target='_blank'
