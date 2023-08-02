@@ -53,23 +53,15 @@ export default function Home() {
               className='linkDecor'>
               Instagram
             </Link>
-            . I enjoy having small{' '}
+            . I usually have small{' '}
             <Link
               href='https://github.com/AnadeOre'
               target='_blank'
               className='linkDecor'>
               programming projects
             </Link>
-            , mostly in web development. My lastest project "
-            <Link
-              target='_blank'
-              className='linkDecor'
-              href='https://animaths.vercel.app'>
-              AniMaths
-            </Link>
-            " uses NextJS and a plotting library for react to explain
-            mathematics with animations. I'm also a bartender, so I always enjoy
-            experimenting and making cocktails.
+            , mostly in web development. I'm also a bartender, so I always enjoy
+            experimenting with cocktails and homemade liqueurs.
           </p>
         </div>
       </div>
