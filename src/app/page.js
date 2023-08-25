@@ -35,7 +35,7 @@ export default function Home() {
           </p>
           <p>
             My research interests include fractal geometry, Fourier analysis and
-            dimension theory, specifically in the connection between the three.
+            dimension theory, specifically the connection between the three.
           </p>
           <br />
           <p>
