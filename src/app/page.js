@@ -34,8 +34,8 @@ export default function Home() {
             Universidad Nacional del Litoral, in Argentina.
           </p>
           <p>
-            My research interests include fractal geometry, Fourier analysis and
-            dimension theory, specifically the connection between the three.
+            My research interests include geometric measure theory, Fourier
+            analysis and dimension theory.
           </p>
           <br />
           <p>
