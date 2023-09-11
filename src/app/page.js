@@ -34,8 +34,9 @@ export default function Home() {
             Universidad Nacional del Litoral, in Argentina.
           </p>
           <p>
-            My research interests include geometric measure theory, Fourier
-            analysis and dimension theory.
+            My research interests revolve around the connection between
+            geometric measure theory and dimension theory with Fourier Analysis.
+            {/* include geometric measure theory, Fourier analysis and dimension theory. */}
           </p>
           <br />
           <p>
@@ -45,13 +46,6 @@ export default function Home() {
               target='_blank'
               className='linkDecor'>
               Problemathic YouTube channel
-            </Link>{' '}
-            and{' '}
-            <Link
-              href='http://instagram.com/problemathicvideos/'
-              target='_blank'
-              className='linkDecor'>
-              Instagram
             </Link>
             . In addition to this, my hobbies include having small{' '}
             <Link
