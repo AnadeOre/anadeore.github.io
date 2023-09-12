@@ -35,7 +35,7 @@ export default function Home() {
           </p>
           <p>
             My research interests revolve around the connection between
-            geometric measure theory and dimension theory with Fourier Analysis.
+            geometric measure theory, dimension theory and Fourier Analysis.
           </p>
           <p>
             I'm the creator behind the{' '}
