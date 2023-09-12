@@ -8,7 +8,13 @@ const Teaching = () => {
       <ul>
         {/*  */}
         <li>
-          <h3>2023</h3>
+          <h3>2023 - 2024: St. Andrews Unviersity</h3>
+          <div className={styles.indentedSection}>
+            <p>Tutor for MT2502 Analysis (two groups), Autumn.</p>
+          </div>
+        </li>
+        <li>
+          <h3>2023: Universidad Nacional del Litoral</h3>
           <div className={styles.indentedSection}>
             <p>Tutor for "Matemática A", 1° Semester.</p>
             <p>Tutor for "Matemática Básica", 1° Semester.</p>
@@ -17,7 +23,7 @@ const Teaching = () => {
         </li>
         {/*  */}
         <li>
-          <h3>2022</h3>
+          <h3>2022: Universidad Nacional del Litoral</h3>
           <div className={styles.indentedSection}>
             <p>Tutor for "Cálculo 1", 2° Semester.</p>
             <p>Tutor for "Matemática Discreta", 2° Semester.</p>
