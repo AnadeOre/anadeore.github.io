@@ -77,6 +77,8 @@ export default function Home() {
         KY16 9SS
         <br />
         Scotland
+        <br />
+        Office 103
       </address>
       <Footer />
     </main>
