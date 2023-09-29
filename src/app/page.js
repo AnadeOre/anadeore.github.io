@@ -44,6 +44,13 @@ export default function Home() {
               target='_blank'
               className='linkDecor'>
               Problemathic YouTube channel
+            </Link>{' '}
+            and{' '}
+            <Link
+              href='https://www.instagram.com/problemathicvideos/'
+              target='_blank'
+              className='linkDecor'>
+              Instagram page
             </Link>
             . In addition to this, my hobbies include having small{' '}
             <Link
