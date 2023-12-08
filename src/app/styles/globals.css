@@ -1,8 +1,12 @@
 html {
   --orange: rgb(255, 107, 1);
-  --bg: rgb(33, 39, 55);
-  --white: rgb(251, 254, 251);
-  --blue: rgb(106, 186, 232);
+  --bg: rgb(244, 241, 235);
+  /* --bg: rgb(33, 39, 55); */
+  --white: rgb(33, 33, 33);
+  /* --white: rgb(251, 254, 251); */
+  --blue: #9e0d0d;
+  --secondblue: #2b77a4;
+  /* --blue: rgb(106, 186, 232); */
   --gray: rgb(152, 150, 150);
 }
 body {
@@ -22,8 +26,9 @@ a {
   text-decoration: none;
 }
 .linkDecor:hover {
+  color: var(--secondblue);
   padding-bottom: 3px;
-  border-bottom: 1.5px dashed var(--blue);
+  /* border-bottom: 1.5px dashed var(--blue); */
 }
 
 .invisible-link {
