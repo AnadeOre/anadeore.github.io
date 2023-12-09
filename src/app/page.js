@@ -34,10 +34,9 @@ export default function Home() {
             Universidad Nacional del Litoral, in Argentina.
           </p>
           <p>
-            My research interests are in dimension theory. In particular I'm
-            interested in the connection between geometric measure theory and
-            Fourier analysis through the Fourier dimension and the Fourier
-            dimension spectrum. Visit my{' '}
+            My research interests are in dimension theory. Specifically, in the
+            connection between geometric measure theory and Fourier analysis
+            through the Fourier dimension spectrum. Visit my{' '}
             <Link href='/research' className='linkDecor'>
               research page
             </Link>{' '}
