@@ -5,6 +5,7 @@
   margin-bottom: -5px;
   width: 60%;
 }
+
 .title {
   color: var(--white);
   text-decoration: none;
@@ -24,15 +25,17 @@
   /* border: 2px solid red; */
 }
 .headerLink {
-  color: white;
+  color: var(--white);
   flex-wrap: wrap;
   /* border: 2px solid red; */
   margin: 0px 10px 0px 10px;
+  font-weight: 600;
 }
 .headerLink:hover {
-  color: var(--blue);
+  color: var(--secondblue);
   padding-bottom: 3px;
-  border-bottom: 1.5px dashed var(--blue);
+
+  /* border-bottom: 1.5px dashed var(--secondblue); */
 }
 @media (max-width: 650px) {
   .nav {

@@ -34,8 +34,13 @@ export default function Home() {
             Universidad Nacional del Litoral, in Argentina.
           </p>
           <p>
-            My research interests revolve around the connection between
-            geometric measure theory, dimension theory and Fourier Analysis.
+            My research interests are in dimension theory. Specifically, in the
+            connection between geometric measure theory and Fourier analysis
+            through the Fourier dimension spectrum. Visit my{' '}
+            <Link href='/research' className='linkDecor'>
+              research page
+            </Link>{' '}
+            for more details.
           </p>
           <p>
             I'm the creator behind the{' '}
@@ -59,8 +64,7 @@ export default function Home() {
               className='linkDecor'>
               programming projects
             </Link>
-            , mostly in web development. I'm also a bartender, so I always enjoy
-            experimenting with cocktails and homemade liqueurs.
+            , mostly in web development.
           </p>
         </div>
       </div>
