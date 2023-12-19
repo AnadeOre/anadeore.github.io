@@ -77,17 +77,15 @@ export default function Home() {
           aedo1@st-andrews.ac.uk
         </Link>
         <br />
-        School of Mathematics and Statistics
+        103, Mathematics Institute
         <br />
         University of St. Andrews
         <br />
-        St. Andrews
+        North Haugh, St Andrews
         <br />
         KY16 9SS
         <br />
-        Scotland
-        <br />
-        Office 103
+        Scotland, UK
       </address>
       <Footer />
     </main>
