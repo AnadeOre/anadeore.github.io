@@ -9,7 +9,7 @@ const Teaching = () => {
         {/*  */}
         <Talk
           title='The Fourier spectrum under orthogonal projections'
-          where='St. Anderws Analysis Seminar'
+          where='St. Andrews Analysis Seminar'
           link='https://sta-analysis.github.io/seminars/'
           when='Feb. 2024'
         />
