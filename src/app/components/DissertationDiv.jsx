@@ -23,7 +23,7 @@ const DissertationDiv = ({
           <Link className='linkDecor' target='_blank' href={wherelink}>
             {where}
           </Link>
-          . Mar. 2023.
+          , Mar. 2023.
         </p>
       </div>
     </li>
