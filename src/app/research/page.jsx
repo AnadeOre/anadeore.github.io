@@ -22,9 +22,10 @@ const Page = () => {
       </p>
       <ul>
         <DissertationDiv
-          title='Undergraduate dissertation (spanish)'
-          description='"Licenciatura" thesis at UNL. Supervised by
-          Marisa Toschi and Mauricio Ramseyer.'
+          title='Undergraduate Thesis (Spanish 🇦🇷)'
+          where='UNL-FIQ'
+          wherelink='https://www.fiq.unl.edu.ar'
+          info='Supervised by Marisa Toschi and Mauricio Ramseyer'
           linkURL='/UndergradDissertation.pdf'
           linkDesc='Homogeneous Type Spaces and Metrisation'
         />
