@@ -8,7 +8,7 @@ const Teaching = () => {
       <ul>
         {/*  */}
         <li>
-          <h3>2023 - 2024: St. Andrews Unviersity</h3>
+          <h3>2023-2024: St. Andrews University</h3>
           <div className={styles.indentedSection}>
             <p>
               Tutor for MT1003 Pure and Apllied Mathematics (two groups),
