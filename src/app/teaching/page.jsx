@@ -11,7 +11,7 @@ const Teaching = () => {
           <h3>2023-2024: St. Andrews University</h3>
           <div className={styles.indentedSection}>
             <p>
-              Tutor for MT1003 Pure and Apllied Mathematics (two groups),
+              Tutor for MT1003 Pure and Applied Mathematics (two groups),
               Spring.
             </p>
             <p>Tutor for MT2502 Analysis (two groups), Autumn.</p>
