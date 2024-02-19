@@ -10,8 +10,8 @@ export default function Home() {
         <Image
           src='/Image.jpeg'
           className={styles.profilePic}
-          width={1004}
-          height={1144}
+          width={200}
+          height={1140}
           layout='intrinsic'
           alt='Profile picture'
         />
@@ -21,12 +21,14 @@ export default function Home() {
             Andrews, supervised by{' '}
             <Link
               className='linkDecor'
+              target='_blank'
               href='https://jonathan-fraser.github.io/homepage/'>
               Jonathan Fraser
             </Link>{' '}
             and{' '}
             <Link
               className='linkDecor'
+              target='_blank'
               href='https://kennethfalconer.github.io'>
               Kenneth Falconer
             </Link>
@@ -70,6 +72,7 @@ export default function Home() {
       </div>
       <br />
       <address className={styles.address}>
+        <h3>Contact Details</h3>
         <Link
           className='linkDecor'
           href='mailto:aedo1@st-andrews.ac.uk'
