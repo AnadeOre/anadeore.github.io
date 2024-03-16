@@ -61,7 +61,7 @@ export default function Home() {
             </Link>
             . In addition to this, my hobbies include having small{' '}
             <Link
-              href='https://github.com/AnadeOre'
+              href='https://animaths.vercel.app'
               target='_blank'
               className='linkDecor'>
               programming projects
