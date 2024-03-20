@@ -22,6 +22,7 @@ const PublicationLi = ({title, coauthors, year, arxiv, journal, doi, info}) => {
       <Link href={arxiv} target='_blank' className='linkDecor'>
         arXiv
       </Link>
+      .
       <br />
       {journal ? <b>{journal}</b> : 'Submitted.'}
       {info ? `, ${info}` : ''}{' '}
