@@ -5,6 +5,12 @@ import Link from 'next/link';
 export default function Home() {
   return (
     <main className={styles.main}>
+      <link rel='preconnect' href='https://fonts.googleapis.com' />
+      <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin />
+      <link
+        href='https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap'
+        rel='stylesheet'
+      />
       <h1>About</h1>
       <div className={styles.infoContainer}>
         <Image
