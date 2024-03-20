@@ -6,8 +6,10 @@ export default function Footer() {
     <footer>
       <small>
         Copyright &copy; <span id='copyright'></span>{' '}
-        <Link href='https://github.com/AnadeOre'>AnadeOre</Link> | All rights
-        reserved{' '}
+        <Link target='_blank' href='https://github.com/AnadeOre'>
+          AnadeOre
+        </Link>{' '}
+        | All rights reserved{' '}
       </small>
     </footer>
   );
