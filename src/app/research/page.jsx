@@ -41,40 +41,25 @@ const Page = () => {
       </div>
       <h3>Publications</h3>
       <ol reversed>
-        <li>
-          <b>Obtaining the Fourier spectrum via Fourier coefficients</b> (with
-          M. Carnovale and{' '}
-          <Link
-            target='_blank'
-            className='linkDecor'
-            href='https://jonathan-fraser.github.io/homepage/'>
-            J. M. Fraser
-          </Link>
-          ), 2024,{' '}
-          <Link
-            href='https://arxiv.org/abs/2403.12603v1'
-            target='_blank'
-            className='linkDecor'>
-            arXiv
-          </Link>
-          .
-          <br />
-          Submitted.
-        </li>
-        {/* <PublicationLi
+        <PublicationLi
           title='Obtaining the Fourier spectrum via Fourier coefficients'
           coauthors={[
-            {
-              name: 'J. M. Fraser',
-              website: 'https://jonathan-fraser.github.io/homepage/',
-            },
             {
               name: 'M. Carnovale',
               website: '',
             },
+            {
+              name: ' and ',
+              website: '',
+            },
+            {
+              name: 'J. M. Fraser',
+              website: 'https://jonathan-fraser.github.io/homepage/',
+            },
           ]}
+          year='2024'
           arxiv='https://arxiv.org/abs/2403.12603v1'
-        /> */}
+        />
       </ol>
       <DissertationDiv
         title='Undergraduate Thesis (Spanish 🇦🇷)'
