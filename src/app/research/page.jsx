@@ -1,5 +1,7 @@
 import React from 'react';
+import Link from 'next/link';
 import DissertationDiv from '../components/DissertationDiv';
+import PublicationLi from '../components/PublicationLi';
 const Page = () => {
   return (
     <div>
@@ -21,16 +23,67 @@ const Page = () => {
         {/* behave gives more insight into the relation between the dimensions it */}
         {/* interpolates. */}
       </p>
-      <ul>
-        <DissertationDiv
-          title='Undergraduate Thesis (Spanish 🇦🇷)'
-          where='UNL-FIQ'
-          wherelink='https://www.fiq.unl.edu.ar'
-          info='Supervised by Marisa Toschi and Mauricio Ramseyer'
-          linkURL='/UndergradDissertation.pdf'
-          linkDesc='Homogeneous Type Spaces and Metrisation'
-        />
-      </ul>
+      <div>
+        <b>My identifiers:</b>{' '}
+        <Link
+          className='linkDecor'
+          href='https://orcid.org/0009-0005-6958-896X'
+          target='_blank'>
+          ORCID
+        </Link>
+        ,{' '}
+        <Link
+          className='linkDecor'
+          href='http://arxiv.org/a/deorellana_a_1'
+          target='_blank'>
+          arXiv
+        </Link>
+      </div>
+      <h3>Publications</h3>
+      <ol reversed>
+        <li>
+          <b>Obtaining the Fourier spectrum via Fourier coefficients</b> (with
+          M. Carnovale and{' '}
+          <Link
+            target='_blank'
+            className='linkDecor'
+            href='https://jonathan-fraser.github.io/homepage/'>
+            J. M. Fraser
+          </Link>
+          ),{' '}
+          <Link
+            href='https://arxiv.org/abs/2403.12603v1'
+            target='_blank'
+            className='linkDecor'>
+            arXiv
+          </Link>
+          .
+          <br />
+          Submitted.
+        </li>
+        {/* <PublicationLi
+          title='Obtaining the Fourier spectrum via Fourier coefficients'
+          coauthors={[
+            {
+              name: 'J. M. Fraser',
+              website: 'https://jonathan-fraser.github.io/homepage/',
+            },
+            {
+              name: 'M. Carnovale',
+              website: '',
+            },
+          ]}
+          arxiv='https://arxiv.org/abs/2403.12603v1'
+        /> */}
+      </ol>
+      <DissertationDiv
+        title='Undergraduate Thesis (Spanish 🇦🇷)'
+        where='UNL-FIQ'
+        wherelink='https://www.fiq.unl.edu.ar'
+        info='Supervised by Marisa Toschi and Mauricio Ramseyer'
+        linkURL='/UndergradDissertation.pdf'
+        linkDesc='Homogeneous Type Spaces and Metrisation'
+      />
     </div>
   );
 };

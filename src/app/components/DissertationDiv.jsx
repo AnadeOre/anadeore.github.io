@@ -11,8 +11,8 @@ const DissertationDiv = ({
   linkDesc,
 }) => {
   return (
-    <li>
-      <h3>{title}</h3>
+    <div>
+      <h4>{title}</h4>
       <div className={styles.indentedSection}>
         <Link className='linkDecor' target='_blank' href={linkURL}>
           {linkDesc}
@@ -26,7 +26,7 @@ const DissertationDiv = ({
           , Mar. 2023.
         </p>
       </div>
-    </li>
+    </div>
   );
 };
 
