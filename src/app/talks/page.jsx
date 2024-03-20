@@ -1,5 +1,6 @@
 import React from 'react';
 import Talk from '../components/Talk';
+import Footer from '../components/Footer';
 
 const Teaching = () => {
   return (
@@ -14,6 +15,7 @@ const Teaching = () => {
           when='Feb. 2024'
         />
       </ol>
+      <Footer />
     </div>
   );
 };

@@ -2,6 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import DissertationDiv from '../components/DissertationDiv';
 import PublicationLi from '../components/PublicationLi';
+import Footer from '../components/Footer';
 const Page = () => {
   return (
     <div>
@@ -65,6 +66,7 @@ const Page = () => {
         linkURL='/UndergradDissertation.pdf'
         linkDesc='Homogeneous Type Spaces and Metrisation'
       />
+      <Footer />
     </div>
   );
 };

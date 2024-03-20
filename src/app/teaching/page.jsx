@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from '../styles/list.module.css';
+import Footer from '../components/Footer';
 
 const Teaching = () => {
   return (
@@ -34,6 +35,7 @@ const Teaching = () => {
           </div>
         </li>
       </ul>
+      <Footer />
     </div>
   );
 };
