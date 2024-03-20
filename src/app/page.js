@@ -44,7 +44,7 @@ export default function Home() {
           <p>
             My research interests are in dimension theory. Specifically, in the
             connection between geometric measure theory and Fourier analysis
-            through the Fourier dimension spectrum. Visit my{' '}
+            through the Fourier spectrum. Visit my{' '}
             <Link href='/research' className='linkDecor'>
               research page
             </Link>{' '}
