@@ -50,7 +50,7 @@ const Page = () => {
             href='https://jonathan-fraser.github.io/homepage/'>
             J. M. Fraser
           </Link>
-          ),{' '}
+          ), 2024,{' '}
           <Link
             href='https://arxiv.org/abs/2403.12603v1'
             target='_blank'
