@@ -6,7 +6,9 @@ const PublicationLi = ({title, coauthors, year, arxiv, journal, doi, info}) => {
     return coauthors.map((author, index) => (
       <>
         {author.website ? (
-          <Link href={author.website}>{author.name}</Link>
+          <Link target='_blank' className='linkDecor' href={author.website}>
+            {author.name}
+          </Link>
         ) : (
           <span>{author.name}</span>
         )}
