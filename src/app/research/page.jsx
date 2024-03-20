@@ -49,10 +49,6 @@ const Page = () => {
               website: '',
             },
             {
-              name: ' and ',
-              website: '',
-            },
-            {
               name: 'J. M. Fraser',
               website: 'https://jonathan-fraser.github.io/homepage/',
             },

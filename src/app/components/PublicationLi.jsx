@@ -1,24 +1,29 @@
 import React from 'react';
 import Link from 'next/link';
-import styles from '../styles/list.module.css';
-import {render} from 'react-dom';
 
 const PublicationLi = ({title, coauthors, year, arxiv, journal, doi, info}) => {
   const renderAuthors = (coauthors) => {
-    return coauthors.map((author) => (
-      <span>
+    return coauthors.map((author, index) => (
+      <>
         {author.website ? (
           <Link href={author.website}>{author.name}</Link>
         ) : (
           <span>{author.name}</span>
         )}
-      </span>
+        {index < coauthors.length - 2
+          ? ', '
+          : index == coauthors.length - 1
+          ? ''
+          : ' and '}
+      </>
     ));
   };
+
   return (
     <li>
-      <b>{title}</b> (with {renderAuthors(coauthors)}
-      ), {year},{' '}
+      <b>{title}</b>{' '}
+      {coauthors ? <>(with {renderAuthors(coauthors)}), </> : ', '}
+      {year},{' '}
       <Link href={arxiv} target='_blank' className='linkDecor'>
         arXiv
       </Link>
