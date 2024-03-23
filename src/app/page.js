@@ -17,7 +17,7 @@ export default function Home() {
         />
         <div className={styles.description}>
           <p>
-            I am currently a Maths Ph.D. student at the University of St.
+            I am currently a Maths Ph.D. student at the University of St
             Andrews, supervised by{' '}
             <Link
               className='linkDecor'
@@ -82,7 +82,7 @@ export default function Home() {
         <br />
         103, Mathematics Institute
         <br />
-        University of St. Andrews
+        University of St Andrews
         <br />
         North Haugh, St Andrews
         <br />
