@@ -1,0 +1,53 @@
+.indentedSection {
+  margin-left: 20px;
+}
+
+.fewmarginparagraph {
+  margin-top: -15px;
+  margin-bottom: -0px;
+}
+.marginparagraph {
+  margin-top: 15px;
+}
+
+.absButton {
+  background-color: transparent;
+  border: 0;
+  font-size: 13px;
+  color: var(--white);
+  flex-wrap: wrap;
+  margin-top: -10px;
+  font-weight: 600;
+}
+.absButton:hover {
+  color: var(--secondblue);
+  padding-bottom: 3px;
+}
+
+.abstract {
+  font-size: 13px;
+  width: 70%;
+  margin-left: 18px;
+  text-align: justify;
+}
+
+.absButtonPubli {
+  background-color: transparent;
+  border: 0;
+  font-size: 13px;
+  color: var(--white);
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+.absButtonPubli:hover {
+  color: var(--secondblue);
+  padding-bottom: 3px;
+}
+
+.abstractPubli {
+  font-size: 13px;
+  margin-left: 18px;
+  text-align: justify;
+  margin-bottom: 10px;
+}

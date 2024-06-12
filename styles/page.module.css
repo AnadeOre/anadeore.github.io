@@ -1,0 +1,46 @@
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.description {
+  align-self: center;
+  display: block;
+  padding: 10px;
+  margin-left: 20px;
+}
+.address {
+  font-size: 14px;
+  padding: 20px;
+  margin-left: -15px;
+  margin-top: -30px;
+}
+/* 
+.profilePic {
+  object-fit: contain !important;
+  width: 40% !important;
+  position: relative;
+  height: unset;
+} */
+
+.profilePic {
+  width: 400px;
+  height: auto;
+}
+
+@media (min-width: 800px) {
+  .infoContainer {
+    flex-direction: row;
+  }
+  .profilePic {
+    width: 350;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 920px) {
+  .profilePic {
+    width: 300px;
+    height: auto;
+  }
+}
