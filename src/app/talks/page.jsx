@@ -8,7 +8,7 @@ const Teaching = () => {
       <h1>Talks</h1>
       <ol reversed>
         {/*  */}
-        <Talk
+        {/* <Talk
           title='Fourier transforms and orthogonal projections'
           event='Workshop on Ergodic Theory and Fractal Geometry'
           where='University of Loughborough'
@@ -23,7 +23,7 @@ const Teaching = () => {
           link='https://midnightsun2024.gitlab.io'
           when='Jun. 2024'
           abstract='It is well-known that for Salem sets, i.e. sets that have the same Fourier and Hausdorff dimensions; there are no exceptions to Marstrand’s projection theorem. In this talk we will  show how we can use the method of dimension interpolation to improve the best known estimates for the Hausdorff dimension of the exceptional set of projections. Joint work with Jonathan Fraser.'
-        />
+        /> */}
         <Talk
           title='The Fourier spectrum under orthogonal projections'
           event='St Andrews Analysis Seminar'
