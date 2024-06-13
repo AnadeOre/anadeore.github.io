@@ -32,9 +32,10 @@ a {
 }
 
 footer {
-  position: fixed;
+  position: sticky;
   left: 0;
   bottom: 0;
+  background-color: var(--bg);
   width: 100%;
 }
 .invisible-link {
