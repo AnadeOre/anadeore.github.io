@@ -7,14 +7,19 @@ export default function Home() {
     <main className={styles.main}>
       <h1>About</h1>
       <div className={styles.infoContainer}>
-        <Image
-          src='/Image.jpeg'
-          className={styles.profilePic}
-          width={200}
-          height={1140}
-          layout='intrinsic'
-          alt='Profile picture'
-        />
+        <div className={styles.imageContainer}>
+          <Image
+            src='/Image.jpeg'
+            className={styles.profilePic}
+            width={200}
+            height={1140}
+            layout='intrisic'
+            alt='Profile picture'
+          />
+          <figcaption className={styles.imageCaption}>
+            Me (left) with a Highland Coo.
+          </figcaption>
+        </div>
         <div className={styles.description}>
           <p>
             I am currently a Maths PhD student at the University of St Andrews,

@@ -26,6 +26,7 @@
 .profilePic {
   width: 400px;
   height: auto;
+  align-self: center;
 }
 
 @media (min-width: 800px) {
@@ -43,4 +44,17 @@
     width: 300px;
     height: auto;
   }
+}
+
+.imageContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.imageCaption {
+  font-size: 12px;
+  align-content: center;
+  margin: auto;
+  margin-top: 5px;
 }
