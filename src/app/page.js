@@ -17,7 +17,7 @@ export default function Home() {
             alt='Profile picture'
           />
           <figcaption className={styles.imageCaption}>
-            Me (left) with a Highland Coo.
+            Me (left) with a Highland Cow.
           </figcaption>
         </div>
         <div className={styles.description}>
