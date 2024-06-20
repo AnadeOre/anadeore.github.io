@@ -37,6 +37,8 @@ footer {
   bottom: 0;
   background-color: var(--bg);
   width: 100%;
+  padding: 1px;
+  text-align: center;
 }
 .invisible-link {
   color: var(--white);
@@ -55,11 +57,6 @@ content {
   min-width: 100%;
   background: var(--blue);
   border: var(--blue);
-}
-
-footer {
-  padding: 25px;
-  text-align: center;
 }
 
 ul {
