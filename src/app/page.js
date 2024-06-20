@@ -13,7 +13,6 @@ export default function Home() {
             className={styles.profilePic}
             width={200}
             height={1140}
-            layout='intrisic'
             alt='Profile picture'
           />
           <figcaption className={styles.imageCaption}>
