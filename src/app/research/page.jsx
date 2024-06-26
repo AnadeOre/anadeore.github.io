@@ -88,7 +88,6 @@ const Page = () => {
         linkURL='/UndergradDissertation.pdf'
         linkDesc='Homogeneous Type Spaces and Metrisation'
       />
-      <Footer />
     </div>
   );
 };

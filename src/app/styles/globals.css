@@ -35,11 +35,11 @@ footer {
   position: sticky;
   left: 0;
   bottom: 0;
-  background-color: var(--bg);
   width: 100%;
-  padding: 1px;
-  text-align: center;
+  justify-items: center;
+  margin: auto;
 }
+
 .invisible-link {
   color: var(--white);
   text-decoration: none;

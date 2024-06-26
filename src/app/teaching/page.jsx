@@ -35,7 +35,6 @@ const Teaching = () => {
           </div>
         </li>
       </ul>
-      <Footer />
     </div>
   );
 };

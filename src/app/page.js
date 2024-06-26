@@ -94,7 +94,7 @@ export default function Home() {
         <br />
         Scotland, UK
       </address>
-      <Footer />
+      {/* <Footer /> */}
     </main>
   );
 }
