@@ -15,15 +15,14 @@ const Teaching = () => {
           link='https://sites.google.com/view/workshoponfractalgeometryandet/home'
           when='Jul. 2024'
           abstract='Exceptional set estimates for orthogonal projections have been widely studied since Marstrand’s paper in the 1950s. However, it is easy to see that Salem sets, i.e. sets for which the Fourier and Hausdorff dimension coincide, have no exceptional projections. With that, one might expect that the Fourier dimension could be used to improve exceptional set estimates for the projection. In this talk we will answer this question with the help of the Fourier spectrum, a family of dimensions that interpolate between the Fourier and Hausdorff dimensions. We will see how this family of dimensions proves useful to obtain continuity results for the dimension of the exceptional set.'
-        />
+        /> */}
         <Talk
           title='Exceptional projections and dimension interpolation'
           event='Geometry and Fractals under the Midnight Sun Conference'
           where='University of Oulu'
           link='https://midnightsun2024.gitlab.io'
           when='Jun. 2024'
-          abstract='It is well-known that for Salem sets, i.e. sets that have the same Fourier and Hausdorff dimensions; there are no exceptions to Marstrand’s projection theorem. In this talk we will  show how we can use the method of dimension interpolation to improve the best known estimates for the Hausdorff dimension of the exceptional set of projections. Joint work with Jonathan Fraser.'
-        /> */}
+        />
         <Talk
           title='The Fourier spectrum under orthogonal projections'
           event='St Andrews Analysis Seminar'
