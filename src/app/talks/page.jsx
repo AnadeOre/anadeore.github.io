@@ -7,14 +7,14 @@ const Teaching = () => {
       <h1>Talks</h1>
       <ol reversed>
         {/*  */}
-        {/* <Talk
+        <Talk
           title='Fourier analysis for fractal measures.'
           event='Workshop on Ergodic Theory and Fractal Geometry'
           where='University of Loughborough'
           link='https://sites.google.com/view/workshoponfractalgeometryandet/home'
           when='Jul. 2024'
           abstract='The Fourier spectrum is a family of dimensions that, for measures, live between the Fourier and Sobolev dimensions, and is defined in terms of the Fourier transform of the measure. In this talk we will extend the well-known results of Kahane and Hare—Roginskaya to define the Fourier spectrum by considering only the Fourier coefficients of measures. Joint work with Marc Carnovale and Jonathan Fraser.'
-        /> */}
+        />
         <Talk
           title='Exceptional projections and dimension interpolation.'
           event='Geometry and Fractals under the Midnight Sun Conference'
