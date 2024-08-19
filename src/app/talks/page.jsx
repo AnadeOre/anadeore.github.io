@@ -25,7 +25,7 @@ const Teaching = () => {
           abstract='It is well-known that when sets have the same Fourier and Hausdorff dimensions there are no exceptions to Marstrand’s projection theorem. In this talk we will show how we can use the method of dimension interpolation to improve the state of the art estimates for the Hausdorff dimension of the exceptional set of projections in higher dimensions. Joint work with Jonathan Fraser.'
         />
         <Talk
-          title='Continuous exceptional estimates for orthogonal projections'
+          title='The continuity of exceptional estimates for orthogonal projections'
           event='Fractal Geometry and Stochastics 7'
           where='Chemnitz (Saxony), Germany'
           link='https://www.tu-chemnitz.de/mathematik/stochastik/fgs7/index.html'
