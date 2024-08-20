@@ -11,7 +11,7 @@ const Teaching = () => {
         <Talk
           title='Projection theorems for the Fourier spectrum.'
           event='Workshop on the Geometry of Deterministic and Random Fractals II'
-          where='Rényi Institute, Budapest'
+          where='Rényi Institute, Budapest, Hungary'
           link='https://erdoscenter.renyi.hu/events/workshop-geometry-deterministic-and-random-fractals-ii'
           when='Sep. 2024'
           abstract='The Fourier spectrum is a family of dimensions that interpolates between the Fourier and Hausdorff dimensions and helps us understand how they are connected. In this talk we will see how it proves useful to get sharper results for bounds regarding the Hausdorff dimension in situations where the Fourier dimension alone is not enough to capture the effect of the Fourier transform of measures. Joint work with Jonathan Fraser.'
@@ -25,9 +25,9 @@ const Teaching = () => {
           abstract='It is well-known that when sets have the same Fourier and Hausdorff dimensions there are no exceptions to Marstrand’s projection theorem. In this talk we will show how we can use the method of dimension interpolation to improve the state of the art estimates for the Hausdorff dimension of the exceptional set of projections in higher dimensions. Joint work with Jonathan Fraser.'
         />
         <Talk
-          title='The continuity of exceptional estimates for orthogonal projections'
+          title='The continuity of exceptional estimates for orthogonal projections.'
           event='Fractal Geometry and Stochastics 7'
-          where='Chemnitz (Saxony), Germany'
+          where='Chemnitz, Germany'
           link='https://www.tu-chemnitz.de/mathematik/stochastik/fgs7/index.html'
           when='Sep. 2024'
           abstract='Since Marstrand’s work on orthogonal projections, exceptional set estimates for such projections have been widely studied. Salem sets, i.e. sets for which the Fourier and Hausdorff dimension coincide, have no such exceptions. When using the Fourier dimension alone to improve exceptional set estimates, it leads to discontinuous bounds. In this talk we will see what conditions we need on the Fourier decay of measures to ensure that the obtained bound is continuous at the Fourier dimension.'

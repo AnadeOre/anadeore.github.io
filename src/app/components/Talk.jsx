@@ -26,7 +26,7 @@ const Talk = ({title, where, link, event, when, abstract, slides}) => {
           <Link href={link} target='_blank' className='linkDecor'>
             {event}
           </Link>
-          , {where}, {when}.
+          . {where}, {when}.
         </p>
         {abstract !== undefined ? (
           <>
