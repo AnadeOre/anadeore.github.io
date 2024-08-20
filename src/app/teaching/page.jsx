@@ -15,8 +15,7 @@ const Teaching = () => {
               Autumn.
             </p>
             <p>
-              Tutor for MT1001: Pure and Applied Mathematics (3 tutorials),
-              Autumn.
+              Tutor for MT1001: Introductory Mathematics (3 tutorials), Autumn.
             </p>
           </div>
         </li>
