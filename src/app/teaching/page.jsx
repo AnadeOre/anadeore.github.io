@@ -7,15 +7,31 @@ const Teaching = () => {
     <div>
       <h1>Teaching</h1>
       <ul>
+        <li>
+          <h3>2024-2025: University of St Andrews</h3>
+          <div className={styles.indentedSection}>
+            <p>
+              Tutor for MT2502: Analysis (3 tutorials + 2 examples classes),
+              Autumn.
+            </p>
+            <p>
+              Tutor for MT1001: Pure and Applied Mathematics (3 tutorials),
+              Autumn.
+            </p>
+          </div>
+        </li>
         {/*  */}
         <li>
           <h3>2023-2024: University of St Andrews</h3>
           <div className={styles.indentedSection}>
             <p>
-              Tutor for MT1003 Pure and Applied Mathematics (two groups),
-              Spring.
+              Tutor for MT1003: Pure and Applied Mathematics (2 tutorials + 2
+              examples classes), Spring.
             </p>
-            <p>Tutor for MT2502 Analysis (two groups), Autumn.</p>
+            <p>
+              Tutor for MT2502 Analysis: (2 tutorials + 2 examples classes),
+              Autumn.
+            </p>
           </div>
         </li>
         <li>
