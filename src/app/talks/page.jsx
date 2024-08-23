@@ -30,7 +30,7 @@ const Teaching = () => {
           where='Chemnitz, Germany'
           link='https://www.tu-chemnitz.de/mathematik/stochastik/fgs7/index.html'
           when='Sep. 2024'
-          abstract='Since Marstrand’s work on orthogonal projections, exceptional set estimates for such projections have been widely studied. Salem sets, i.e. sets for which the Fourier and Hausdorff dimension coincide, have no such exceptions. When using the Fourier dimension alone to improve exceptional set estimates, it leads to discontinuous bounds. In this talk we will see what conditions we need on the Fourier decay of measures to ensure that the obtained bound is continuous at the Fourier dimension.'
+          abstract='Since Marstrand’s work on orthogonal projections, exceptional set estimates for such projections have been widely studied. Salem sets, i.e. sets for which the Fourier and Hausdorff dimension coincide, have no such exceptions, but using the Fourier dimension alone to improve exceptional set estimates leads to discontinuous bounds. In this talk we will see what conditions we need on the Fourier decay of measures to ensure continuity of the bounds.'
         />
       </ol>
       <h2>Past</h2>
