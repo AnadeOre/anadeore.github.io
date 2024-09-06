@@ -9,14 +9,6 @@ const Teaching = () => {
       <ol reversed>
         {/*  */}
         <Talk
-          title='Projection theorems for the Fourier spectrum.'
-          event='Workshop on the Geometry of Deterministic and Random Fractals II'
-          where='Rényi Institute, Budapest, Hungary'
-          link='https://erdoscenter.renyi.hu/events/workshop-geometry-deterministic-and-random-fractals-ii'
-          when='Sep. 2024'
-          abstract='The Fourier spectrum is a family of dimensions that interpolates between the Fourier and Hausdorff dimensions and helps us understand how they are connected. In this talk we will see how it proves useful to get sharper results for bounds regarding the Hausdorff dimension in situations where the Fourier dimension alone is not enough to capture the effect of the Fourier transform of measures. Joint work with Jonathan Fraser.'
-        />
-        <Talk
           title='Orthogonal projections and the Fourier spectrum.'
           event='Afternoon workshop on Fourier analysis, fractals, and finite fields'
           where='University of St Andrews, UK'
@@ -32,10 +24,34 @@ const Teaching = () => {
           when='Sep. 2024'
           abstract='Since Marstrand’s work on orthogonal projections, exceptional set estimates for such projections have been widely studied. Salem sets, i.e. sets for which the Fourier and Hausdorff dimension coincide, have no such exceptions, but using the Fourier dimension alone to improve exceptional set estimates leads to discontinuous bounds. In this talk we will see what conditions we need on the Fourier decay of measures to ensure continuity of the bounds.'
         />
+        <Talk
+          title='TBC.'
+          event='University of Edinburgh Analysis Seminar'
+          where='University of Edinburgh, UK'
+          link='https://blogs.ed.ac.uk/analysis/analysis-seminar/'
+          when='Sep. 2024'
+          // abstract='Since Marstrand’s work on orthogonal projections, exceptional set estimates for such projections have been widely studied. Salem sets, i.e. sets for which the Fourier and Hausdorff dimension coincide, have no such exceptions, but using the Fourier dimension alone to improve exceptional set estimates leads to discontinuous bounds. In this talk we will see what conditions we need on the Fourier decay of measures to ensure continuity of the bounds.'
+        />
+        <Talk
+          title='TBC.'
+          event='University of Birmingham Analysis Seminar'
+          where='University of Birmingham, UK'
+          link='https://www.birmingham.ac.uk/research/activity/mathematics/analysis'
+          when='Oct. 2024'
+          // abstract='Since Marstrand’s work on orthogonal projections, exceptional set estimates for such projections have been widely studied. Salem sets, i.e. sets for which the Fourier and Hausdorff dimension coincide, have no such exceptions, but using the Fourier dimension alone to improve exceptional set estimates leads to discontinuous bounds. In this talk we will see what conditions we need on the Fourier decay of measures to ensure continuity of the bounds.'
+        />
       </ol>
       <h2>Past</h2>
       <ol reversed>
         {/*  */}
+        <Talk
+          title='Projection theorems for the Fourier spectrum.'
+          event='Workshop on the Geometry of Deterministic and Random Fractals II'
+          where='Rényi Institute, Budapest, Hungary'
+          link='https://erdoscenter.renyi.hu/events/workshop-geometry-deterministic-and-random-fractals-ii'
+          when='Sep. 2024'
+          abstract='The Fourier spectrum is a family of dimensions that interpolates between the Fourier and Hausdorff dimensions and helps us understand how they are connected. In this talk we will see how it proves useful to get sharper results for bounds regarding the Hausdorff dimension in situations where the Fourier dimension alone is not enough to capture the effect of the Fourier transform of measures. Joint work with Jonathan Fraser.'
+        />
         <Talk
           title='Fourier analysis for fractal measures.'
           event='Workshop on Ergodic Theory and Fractal Geometry'
