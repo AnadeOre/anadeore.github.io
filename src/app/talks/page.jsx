@@ -45,12 +45,13 @@ const Teaching = () => {
       <ol reversed>
         {/*  */}
         <Talk
-          title='Projection theorems for the Fourier spectrum.'
+          title='Projection theorems and the Fourier spectrum.'
           event='Workshop on the Geometry of Deterministic and Random Fractals II'
           where='Rényi Institute, Budapest, Hungary'
           link='https://erdoscenter.renyi.hu/events/workshop-geometry-deterministic-and-random-fractals-ii'
           when='Sep. 2024'
           abstract='The Fourier spectrum is a family of dimensions that interpolates between the Fourier and Hausdorff dimensions and helps us understand how they are connected. In this talk we will see how it proves useful to get sharper results for bounds regarding the Hausdorff dimension in situations where the Fourier dimension alone is not enough to capture the effect of the Fourier transform of measures. Joint work with Jonathan Fraser.'
+          slides='/Slides/Budapest2024.pdf'
         />
         <Talk
           title='Fourier analysis for fractal measures.'
