@@ -41,9 +41,9 @@ const Teaching = () => {
           abstract='It is well-known that when sets have the same Fourier and Hausdorff dimensions there are no exceptions to Marstrand’s projection theorem. In this talk we will show how we can use the method of dimension interpolation to improve the state of the art estimates for the Hausdorff dimension of the exceptional set of projections in higher dimensions. Joint work with Jonathan Fraser.'
         />
         <Talk
-          title='Orthogonal projections and a continuum of dimensions.'
+          title='Fourier analytic methods for orthogonal projections.'
           event='Online analysis seminar'
-          where='Shenzhen Technology University, China'
+          where='Shenzhen Technology University, China (online)'
           link='https://bdi.sztu.edu.cn/index.htm'
           when='Oct. 2024'
           // abstract='It is well-known that when sets have the same Fourier and Hausdorff dimensions there are no exceptions to Marstrand’s projection theorem. In this talk we will show how we can use the method of dimension interpolation to improve the state of the art estimates for the Hausdorff dimension of the exceptional set of projections in higher dimensions. Joint work with Jonathan Fraser.'
