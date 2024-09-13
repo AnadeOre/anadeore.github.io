@@ -33,12 +33,20 @@ const Teaching = () => {
           // abstract='Since Marstrand’s work on orthogonal projections, exceptional set estimates for such projections have been widely studied. Salem sets, i.e. sets for which the Fourier and Hausdorff dimension coincide, have no such exceptions, but using the Fourier dimension alone to improve exceptional set estimates leads to discontinuous bounds. In this talk we will see what conditions we need on the Fourier decay of measures to ensure continuity of the bounds.'
         />
         <Talk
-          title='TBC.'
+          title='Orthogonal projections and a continuum of dimensions.'
           event='University of Birmingham Analysis Seminar'
           where='University of Birmingham, UK'
           link='https://www.birmingham.ac.uk/research/activity/mathematics/analysis'
           when='Oct. 2024'
-          // abstract='Since Marstrand’s work on orthogonal projections, exceptional set estimates for such projections have been widely studied. Salem sets, i.e. sets for which the Fourier and Hausdorff dimension coincide, have no such exceptions, but using the Fourier dimension alone to improve exceptional set estimates leads to discontinuous bounds. In this talk we will see what conditions we need on the Fourier decay of measures to ensure continuity of the bounds.'
+          abstract='It is well-known that when sets have the same Fourier and Hausdorff dimensions there are no exceptions to Marstrand’s projection theorem. In this talk we will show how we can use the method of dimension interpolation to improve the state of the art estimates for the Hausdorff dimension of the exceptional set of projections in higher dimensions. Joint work with Jonathan Fraser.'
+        />
+        <Talk
+          title='Orthogonal projections and a continuum of dimensions.'
+          event='Online analysis seminar'
+          where='Shenzhen Technology University, China'
+          link='https://bdi.sztu.edu.cn/index.htm'
+          when='Oct. 2024'
+          // abstract='It is well-known that when sets have the same Fourier and Hausdorff dimensions there are no exceptions to Marstrand’s projection theorem. In this talk we will show how we can use the method of dimension interpolation to improve the state of the art estimates for the Hausdorff dimension of the exceptional set of projections in higher dimensions. Joint work with Jonathan Fraser.'
         />
       </ol>
       <h2>Past</h2>
