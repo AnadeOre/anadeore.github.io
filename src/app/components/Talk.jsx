@@ -28,7 +28,7 @@ const Talk = ({title, where, link, event, when, abstract, slides}) => {
           </Link>
           . {where}, {when}.
         </p>
-        {abstract !== undefined ? (
+        {/* {abstract !== undefined ? (
           <>
             <button
               className={styles.absButton}
@@ -40,7 +40,7 @@ const Talk = ({title, where, link, event, when, abstract, slides}) => {
           </>
         ) : (
           ''
-        )}
+        )} */}
       </div>
     </li>
   );
