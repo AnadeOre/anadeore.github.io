@@ -93,6 +93,13 @@ export default function Home() {
         KY16 9SS
         <br />
         Scotland, UK
+        <br />
+        <Link
+          href='https://research-portal.st-andrews.ac.uk/en/persons/ana-emilia-de-orellana'
+          target='_blank'
+          className='linkDecor'>
+          St Andrews profile
+        </Link>
       </address>
       {/* <Footer /> */}
     </main>
