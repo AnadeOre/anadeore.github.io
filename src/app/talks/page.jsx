@@ -9,13 +9,6 @@ const Teaching = () => {
       <ol reversed>
         {/*  */}
         <Talk
-          title='Orthogonal projections and the Fourier spectrum.'
-          event='Afternoon workshop on Fourier analysis, fractals, and finite fields'
-          where='University of St Andrews, UK'
-          link='https://jonathan-fraser.github.io/homepage/FFFF.html'
-          when='Sep. 2024'
-        />
-        <Talk
           title='The continuity of exceptional estimates for orthogonal projections.'
           event='Fractal Geometry and Stochastics 7'
           where='Chemnitz, Germany'
@@ -47,6 +40,13 @@ const Teaching = () => {
       <h2>Past</h2>
       <ol reversed>
         {/*  */}
+        <Talk
+          title='Orthogonal projections and the Fourier spectrum.'
+          event='Afternoon workshop on Fourier analysis, fractals, and finite fields'
+          where='University of St Andrews, UK'
+          link='https://jonathan-fraser.github.io/homepage/FFFF.html'
+          when='Sep. 2024'
+        />
         <Talk
           title='Projection theorems and the Fourier spectrum.'
           event='Workshop on the Geometry of Deterministic and Random Fractals II'
