@@ -16,7 +16,7 @@ const Teaching = () => {
           when='Sep. 2024'
         />
         <Talk
-          title='TBC.'
+          title='Dimension interpolation and exceptional set estimates.'
           event='University of Edinburgh Analysis Seminar'
           where='University of Edinburgh, UK'
           link='https://blogs.ed.ac.uk/analysis/analysis-seminar/'
