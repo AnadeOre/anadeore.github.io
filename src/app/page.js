@@ -21,8 +21,8 @@ export default function Home() {
         </div>
         <div className={styles.description}>
           <p>
-            I am a Maths PhD student at the University of St Andrews, supervised
-            by{' '}
+            I am a second year Maths PhD student at the University of St
+            Andrews, supervised by{' '}
             <Link
               className='linkDecor'
               target='_blank'
