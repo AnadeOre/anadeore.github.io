@@ -9,20 +9,6 @@ const Teaching = () => {
       <ol reversed>
         {/*  */}
         <Talk
-          title='The continuity of exceptional estimates for orthogonal projections.'
-          event='Fractal Geometry and Stochastics 7'
-          where='Chemnitz, Germany'
-          link='https://www.tu-chemnitz.de/mathematik/stochastik/fgs7/index.html'
-          when='Sep. 2024'
-        />
-        <Talk
-          title='Dimension interpolation and exceptional set estimates.'
-          event='University of Edinburgh Analysis Seminar'
-          where='University of Edinburgh, UK'
-          link='https://blogs.ed.ac.uk/analysis/analysis-seminar/'
-          when='Sep. 2024'
-        />
-        <Talk
           title='Orthogonal projections and a continuum of dimensions.'
           event='University of Birmingham Analysis Seminar'
           where='University of Birmingham, UK'
@@ -40,6 +26,21 @@ const Teaching = () => {
       <h2>Past</h2>
       <ol reversed>
         {/*  */}
+        <Talk
+          title='Dimension interpolation and exceptional set estimates.'
+          event='University of Edinburgh Analysis Seminar'
+          where='University of Edinburgh, UK'
+          link='https://blogs.ed.ac.uk/analysis/analysis-seminar/'
+          when='Sep. 2024'
+        />
+        <Talk
+          title='The continuity of exceptional estimates for orthogonal projections.'
+          event='Fractal Geometry and Stochastics 7'
+          where='Chemnitz, Germany'
+          link='https://www.tu-chemnitz.de/mathematik/stochastik/fgs7/index.html'
+          when='Sep. 2024'
+          slides='/Slides/Chemnitz2024.pdf'
+        />
         <Talk
           title='Orthogonal projections and the Fourier spectrum.'
           event='Afternoon workshop on Fourier analysis, fractals, and finite fields'
