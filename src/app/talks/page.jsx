@@ -15,17 +15,18 @@ const Teaching = () => {
           link='https://www.birmingham.ac.uk/research/activity/mathematics/analysis'
           when='Oct. 2024'
         />
+      </ol>
+      <h2>Past</h2>
+      <ol reversed>
+        {/*  */}
         <Talk
           title='Fourier analytic methods for orthogonal projections.'
           event='Online analysis seminar'
           where='Shenzhen Technology University, China (online)'
           link='https://bdi.sztu.edu.cn/index.htm'
           when='Oct. 2024'
+          slides='/Slides/Shenzhen2024.pdf'
         />
-      </ol>
-      <h2>Past</h2>
-      <ol reversed>
-        {/*  */}
         <Talk
           title='Dimension interpolation and exceptional set estimates.'
           event='University of Edinburgh Analysis Seminar'
