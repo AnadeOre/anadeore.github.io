@@ -8,9 +8,9 @@ const Page = () => {
     <div>
       <h1>Notes</h1>
       <p>
-        Here you can find some expository articles that I wrote. These may
-        contain errors and sometimes are mathematically imprecise. Plese refer
-        to the references on each note for the correct statements.
+        Here you can find some notes that I wrote for myself. These may contain
+        errors and be mathematically imprecise. Plese refer to the references on
+        each note for the correct statements.
       </p>
       <ul>
         <NoteLi
@@ -23,7 +23,7 @@ const Page = () => {
           pdf='/Notes/BrownianStochastic.pdf'
         />
         <NoteLi
-          desc='Reading group at the University of St Andrews in which several members of the group participated. Any errors in the notes are due to myself. Autumn 2023-2024.'
+          desc='Reading group at the University of St Andrews in which several members of the group would take turns to talk about additive combinatorics. Any errors in the notes are due to myself. Autumn 2023-2024.'
           title='Additive combinatorics'
           pdf='/Notes/AdditiveCombinatorics.pdf'
         />
