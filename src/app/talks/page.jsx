@@ -9,6 +9,13 @@ const Teaching = () => {
       <ol reversed>
         {/*  */}
         <Talk
+          title='TBC'
+          event='One World Fractals'
+          where='University of St Andrews (online)'
+          link='https://www.oneworldfractals.org/next/'
+          when='Nov. 2024'
+        />
+        <Talk
           title='Orthogonal projections and a continuum of dimensions.'
           event='University of Birmingham Analysis Seminar'
           where='University of Birmingham, UK'
