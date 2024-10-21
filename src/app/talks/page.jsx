@@ -17,6 +17,10 @@ const Teaching = () => {
           link='https://www.oneworldfractals.org/next/'
           when='Nov. 2024'
         />
+      </ol>
+      <h2>Past</h2>
+      <ol reversed>
+        {/*  */}
         <Talk
           title='Orthogonal projections and a continuum of dimensions.'
           event='University of Birmingham Analysis Seminar'
@@ -24,10 +28,6 @@ const Teaching = () => {
           link='https://www.birmingham.ac.uk/research/activity/mathematics/analysis'
           when='Oct. 2024'
         />
-      </ol>
-      <h2>Past</h2>
-      <ol reversed>
-        {/*  */}
         <Talk
           title='Fourier analytic methods for orthogonal projections.'
           event='Online analysis seminar'
