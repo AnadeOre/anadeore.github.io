@@ -1,9 +1,11 @@
 import React from 'react';
+import Header from '../components/Header';
 import Talk from '../components/Talk';
 
 const Teaching = () => {
   return (
     <div>
+      <Header />
       <h1>Talks</h1>
       <h2>Future</h2>
       <ol reversed>

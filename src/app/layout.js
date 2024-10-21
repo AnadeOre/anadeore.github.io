@@ -12,7 +12,7 @@ export default function RootLayout({children}) {
       <title>{metadata.title}</title>
       <meta name='Description' content={metadata.description} />
       <body>
-        <Header />
+        {/* <Header /> */}
         {children}
       </body>
     </html>

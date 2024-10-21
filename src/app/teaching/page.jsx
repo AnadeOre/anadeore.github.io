@@ -1,10 +1,12 @@
 import React from 'react';
 import styles from '../styles/list.module.css';
 import Footer from '../components/Footer';
+import Header from '../components/Header';
 
 const Teaching = () => {
   return (
     <div>
+      <Header />
       <h1>Teaching</h1>
       <ul>
         <li>

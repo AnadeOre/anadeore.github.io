@@ -1,10 +1,12 @@
 import Image from 'next/image';
 import styles from './styles/page.module.css';
 import Footer from './components/Footer';
+import Header from './components/Header';
 import Link from 'next/link';
 export default function Home() {
   return (
     <main className={styles.main}>
+      <Header />
       <h1>About</h1>
       <div className={styles.infoContainer}>
         <div className={styles.imageContainer}>
@@ -48,6 +50,25 @@ export default function Home() {
             </Link>{' '}
             for more details.
           </p>
+          {/* <p>
+            I'm currently organising an{' '}
+            <Link
+              className='linkDecor'
+              target='_blank'
+              href='http://localhost:3000/HAPDE'>
+              afternoon workshop
+            </Link>{' '}
+            as part of the HAPDE network together with{' '}
+            <Link
+              className='linkDecor'
+              target='_blank'
+              href='https://jonathan-fraser.github.io/homepage/'>
+              Jonathan Fraser
+            </Link>
+            .
+          </p> */}
+
+          <br />
           <p>
             I'm the creator behind the{' '}
             <Link

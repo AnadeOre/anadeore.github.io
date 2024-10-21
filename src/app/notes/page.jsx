@@ -1,11 +1,13 @@
 import React from 'react';
 import Link from 'next/link';
 import NoteLi from '../components/NoteLi';
+import Header from '../components/Header';
 import Footer from '../components/Footer';
 
 const Page = () => {
   return (
     <div>
+      <Header />
       <h1>Notes</h1>
       <p>
         Here you can find some notes that I wrote for myself. These may contain

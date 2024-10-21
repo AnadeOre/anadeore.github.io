@@ -3,10 +3,12 @@ import Link from 'next/link';
 import DissertationDiv from '../components/DissertationDiv';
 import PublicationLi from '../components/PublicationLi';
 import Footer from '../components/Footer';
+import Header from '../components/Header';
 
 const Page = () => {
   return (
     <div>
+      <Header />
       <h1>Research</h1>
       <p>
         While the Hausdorff dimension of a set gives information regarding its
