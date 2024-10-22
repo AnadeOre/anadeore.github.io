@@ -16,8 +16,8 @@ const Header = () => {
           <Link className={styles.headerLink} href='research'>
             Research
           </Link>
-          <Link className={styles.headerLink} href='notes'>
-            Notes
+          <Link className={styles.headerLink} href='links'>
+            Links
           </Link>
           <Link className={styles.headerLink} href='talks'>
             Talks

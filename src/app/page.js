@@ -52,20 +52,10 @@ export default function Home() {
           </p>
           {/* <p>
             I'm currently organising an{' '}
-            <Link
-              className='linkDecor'
-              target='_blank'
-              href='http://localhost:3000/HAPDE'>
+            <Link className='linkDecor' href='http://localhost:3000/HAPDE'>
               afternoon workshop
             </Link>{' '}
-            as part of the HAPDE network together with{' '}
-            <Link
-              className='linkDecor'
-              target='_blank'
-              href='https://jonathan-fraser.github.io/homepage/'>
-              Jonathan Fraser
-            </Link>
-            .
+            as part of the HAPDE network together with Jonathan Fraser.
           </p> */}
 
           <br />
