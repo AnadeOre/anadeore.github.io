@@ -15,7 +15,7 @@ body {
   font-family: Space Mono, monospace;
   margin: auto;
   padding: 20px;
-  max-width: 100ch;
+  max-width: 105ch;
   text-align: left;
   background-color: var(--bg);
   word-wrap: break-word;
