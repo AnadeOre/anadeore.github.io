@@ -39,9 +39,10 @@ const Page = () => {
           <h3 className={linksStyle.title}>Events I've organised</h3>
           <ul className={linksStyle.ul}>
             <li>
-              <Link href='https://anadeore.github.io/HAPDE' target='_blank'>
-                HAPDE meeting in St Andrews
-              </Link>
+              HAPDE meeting in St Andrews
+              {/* <Link href='https://anadeore.github.io/HAPDE' target='_blank'>
+                
+              </Link> */}
             </li>
           </ul>
         </div>
