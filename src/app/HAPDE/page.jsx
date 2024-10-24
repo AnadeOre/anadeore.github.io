@@ -31,7 +31,7 @@ const Page = () => {
       </ul>
       <h3>Speakers</h3>
       <ul className={stylesHAPDE.ul}>
-        <li>Jonathan Bennet</li>
+        <li>Jonathan Bennett</li>
         <li>Dominique Maldague</li>
         <li>Firdavs Rakhmonov</li>
       </ul>
@@ -57,7 +57,7 @@ const Page = () => {
           slides='/'
         />
         <br />
-        <FoodEvent time='15:30 - 16:00' event='Coffe Break' />
+        <FoodEvent time='15:30 - 16:00' event='Coffee Break' />
         <br />
         <Schedule
           time='16:00 - 17:00'
