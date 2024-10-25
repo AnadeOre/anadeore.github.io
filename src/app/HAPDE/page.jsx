@@ -26,14 +26,38 @@ const Page = () => {
       {/* <br /> */}
       <h3>Local organisers</h3>
       <ul className={stylesHAPDE.ul}>
-        <li>Jonathan Fraser</li>
-        <li>Ana E. de Orellana</li>
+        <li>Jonathan Fraser.</li>
+        <li>Ana E. de Orellana.</li>
       </ul>
       <h3>Speakers</h3>
       <ul className={stylesHAPDE.ul}>
-        <li>Jonathan Bennett</li>
-        <li>Dominique Maldague</li>
-        <li>Firdavs Rakhmonov</li>
+        <li>
+          <Link
+            className='linkDecor'
+            target='_blank'
+            href='https://www.birmingham.ac.uk/staff/profiles/maths/bennett-jonathan'>
+            Jonathan Bennett
+          </Link>
+          , University of Birmingham.
+        </li>
+        <li>
+          <Link
+            className='linkDecor'
+            target='_blank'
+            href='https://math.mit.edu/~dmal/'>
+            Dominique Maldague
+          </Link>
+          , University of Cambridge.
+        </li>
+        <li>
+          <Link
+            className='linkDecor'
+            target='_blank'
+            href='https://sites.google.com/view/frakhmon/home'>
+            Firdavs Rakhmonov
+          </Link>
+          , University of St Andrews.
+        </li>
       </ul>
       <h2>Schedule</h2>
       <ul>
@@ -41,20 +65,18 @@ const Page = () => {
         <br />
         <Schedule
           time='13:30 - 14:30'
-          speaker='Speaker name'
-          uni='University'
-          title='Title of the talk'
-          abstract='This is the abstract.'
-          slides='/'
+          speaker='Jonathan Bennett'
+          title='TBC'
+          abstract='TBC.'
+          // slides='/'
         />
         <br />
         <Schedule
           time='14:30 - 15:30'
-          speaker='Speaker name'
-          uni='University'
-          title='Title of the talk'
-          abstract='This is the abstract.'
-          slides='/'
+          speaker='Firdavs Rakhmonov'
+          title='TBC'
+          abstract='TBC.'
+          // slides='/'
         />
         <br />
         <FoodEvent time='15:30 - 16:00' event='Coffee Break' />
@@ -62,10 +84,9 @@ const Page = () => {
         <Schedule
           time='16:00 - 17:00'
           speaker='Speaker name'
-          uni='University'
           title='Title of the talk'
           abstract='This is the abstract.'
-          slides='/'
+          // slides='/'
         />
       </ul>
       <br />
