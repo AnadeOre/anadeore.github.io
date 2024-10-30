@@ -8,7 +8,7 @@ const Teaching = () => {
       <Header />
       <h1>Talks</h1>
       <h2>Future</h2>
-      <ol reversed>
+      <ol>
         {/*  */}
         <Talk
           title='TBC'
@@ -16,6 +16,13 @@ const Teaching = () => {
           where='University of St Andrews (online)'
           link='https://www.oneworldfractals.org/next/'
           when='Nov. 2024'
+        />
+        <Talk
+          title='TBC'
+          event='Workshop on Regularity Theory of PDEs and Calculus of Variations'
+          where='University of Essex, UK'
+          link='/'
+          when='Jun. 2025'
         />
       </ol>
       <h2>Past</h2>
