@@ -11,6 +11,7 @@ const PublicationLi = ({
   arxiv,
   journal,
   doi,
+  tap,
   info,
   abstract,
 }) => {
@@ -36,13 +37,14 @@ const PublicationLi = ({
 
   return (
     <li key={arxiv}>
-      <b>{title}</b>{' '}
-      {coauthors ? <>(with {renderAuthors(coauthors)}), </> : ', '}
-      {year},{' '}
+      {title} {coauthors ? <>(with {renderAuthors(coauthors)}), </> : ', '}
       <Link href={arxiv} target='_blank' className='linkDecor'>
         arXiv
       </Link>
-      . {journal ? <b>{journal}</b> : 'Submitted.'}
+      .
+      <br />
+      {journal ? <b>{journal}</b> : `Submitted (${year})`}{' '}
+      {tap ? ` (to appear)` : ''}
       {info ? `, ${info}` : ''}{' '}
       {doi
         ? `, ${(
