@@ -11,11 +11,18 @@ const Teaching = () => {
       <ol>
         {/*  */}
         <Talk
-          title='TBC'
+          title='A new perspective on the Stein--Tomas Theorem'
           event='One World Fractals'
           where='University of St Andrews (online)'
           link='https://www.oneworldfractals.org/next/'
           when='Nov. 2024'
+        />
+        <Talk
+          title='TBC'
+          event='Ergodic theory and dynamical systems seminar'
+          where='University of Bristol, UK'
+          link='/'
+          when='Mar. 2025'
         />
         <Talk
           title='TBC'
