@@ -11,13 +11,6 @@ const Teaching = () => {
       <ol>
         {/*  */}
         <Talk
-          title='A new perspective on the Stein--Tomas Theorem'
-          event='One World Fractals'
-          where='University of St Andrews (online)'
-          link='https://www.oneworldfractals.org/next/'
-          when='Nov. 2024'
-        />
-        <Talk
           title='TBC'
           event='Ergodic theory and dynamical systems seminar'
           where='University of Bristol, UK'
@@ -35,6 +28,14 @@ const Teaching = () => {
       <h2>Past</h2>
       <ol reversed>
         {/*  */}
+        <Talk
+          title='A new perspective on the Stein--Tomas Theorem'
+          event='One World Fractals'
+          where='University of St Andrews (online)'
+          link='https://www.oneworldfractals.org/next/'
+          when='Nov. 2024'
+          slides='/Slides/OWF2024'
+        />
         <Talk
           title='Orthogonal projections and a continuum of dimensions.'
           event='University of Birmingham Analysis Seminar'
