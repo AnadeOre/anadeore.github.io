@@ -14,7 +14,7 @@ const Teaching = () => {
           title='TBC'
           event='Ergodic theory and dynamical systems seminar'
           where='University of Bristol, UK'
-          link='/'
+          link='https://www.bristolmathsresearch.org/events/ergodic-theory-and-dynamical-systems/'
           when='Mar. 2025'
         />
         <Talk
