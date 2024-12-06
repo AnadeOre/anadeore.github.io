@@ -32,7 +32,7 @@ const Teaching = () => {
           title='A new perspective on the Stein--Tomas Theorem'
           event='One World Fractals'
           where='University of St Andrews (online)'
-          link='https://www.oneworldfractals.org/next/'
+          link='https://www.oneworldfractals.org/past/owf20241127/'
           when='Nov. 2024'
           slides='/Slides/OWF2024'
         />
