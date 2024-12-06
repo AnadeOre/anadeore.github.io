@@ -34,7 +34,7 @@ const Teaching = () => {
           where='University of St Andrews (online)'
           link='https://www.oneworldfractals.org/past/owf20241127/'
           when='Nov. 2024'
-          slides='/Slides/OWF2024'
+          slides='/Slides/OWF2024.pdf'
         />
         <Talk
           title='Orthogonal projections and a continuum of dimensions.'
