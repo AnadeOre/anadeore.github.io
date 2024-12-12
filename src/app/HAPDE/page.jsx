@@ -44,10 +44,10 @@ const Page = () => {
           <Link
             className='linkDecor'
             target='_blank'
-            href='https://math.mit.edu/~dmal/'>
-            Dominique Maldague
+            href='https://warwick.ac.uk/fac/sci/maths/people/staff/takac/'>
+            Jakub Takáč
           </Link>
-          , University of Cambridge.
+          , University of Warwick.
         </li>
         <li>
           <Link
@@ -83,9 +83,9 @@ const Page = () => {
         <br />
         <Schedule
           time='16:00 - 17:00'
-          speaker='Speaker name'
-          title='Title of the talk'
-          abstract='This is the abstract.'
+          speaker='Jakub Takáč'
+          title='TBC'
+          abstract='TBC.'
           // slides='/'
         />
       </ul>
