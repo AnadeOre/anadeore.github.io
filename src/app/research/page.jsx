@@ -54,7 +54,7 @@ const Page = () => {
       <h3>Preprints</h3>
       <ol reversed>
         <PublicationLi
-          title='L^2 restriction estimates from the Fourier spectrum'
+          title=' $L^2$ restriction estimates from the Fourier spectrum'
           coauthors={[
             {
               name: 'M. Carnovale',
@@ -67,7 +67,7 @@ const Page = () => {
           ]}
           year='2024'
           arxiv='https://arxiv.org/abs/2412.14896'
-          abstract='The Stein--Tomas  restriction theorem is an important  result in Fourier restriction theory.  It gives a range of $q$  for which $L^q\to L^2$ restriction estimates hold for a given measure, in terms of the Fourier and Frostman dimensions of the measure. We generalise this result by using the Fourier spectrum; a family of dimensions that interpolate between the Fourier and Sobolev dimensions for measures.  This gives us a continuum of Stein--Tomas type estimates, and optimising over this continuum gives a new $L^q\to L^2$ restriction theorem which often outperforms the Stein--Tomas result.  We also provide results in the other direction by giving a range of $q$ in terms of the Fourier spectrum for which $L^q\to L^2$ restriction estimates fail, generalising an observation  of Hambrook and {\L}aba.  We illustrate our results with several examples, including the surface measure on the cone, the moment curve, and several fractal measures..'
+          abstract='The Stein--Tomas  restriction theorem is an important  result in Fourier restriction theory.  It gives a range of $q$  for which $L^q\to L^2$ restriction estimates hold for a given measure, in terms of the Fourier and Frostman dimensions of the measure. We generalise this result by using the Fourier spectrum; a family of dimensions that interpolate between the Fourier and Sobolev dimensions for measures.  This gives us a continuum of Stein--Tomas type estimates, and optimising over this continuum gives a new $L^q\to L^2$ restriction theorem which often outperforms the Stein--Tomas result.  We also provide results in the other direction by giving a range of $q$ in terms of the Fourier spectrum for which $L^q\to L^2$ restriction estimates fail, generalising an observation  of Hambrook and Łaba.  We illustrate our results with several examples, including the surface measure on the cone, the moment curve, and several fractal measures..'
         />
         <PublicationLi
           title='Obtaining the Fourier spectrum via Fourier coefficients'

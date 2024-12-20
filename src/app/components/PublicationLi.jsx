@@ -4,6 +4,9 @@ import {useState} from 'react';
 import Link from 'next/link';
 import styles from '../styles/list.module.css';
 
+import 'katex/dist/katex.min.css';
+import Latex from 'react-latex-next';
+
 const PublicationLi = ({
   title,
   coauthors,
@@ -37,7 +40,8 @@ const PublicationLi = ({
 
   return (
     <li key={arxiv}>
-      {title} {coauthors ? <>(with {renderAuthors(coauthors)}), </> : ', '}
+      <Latex>{title}</Latex>{' '}
+      {coauthors ? <>(with {renderAuthors(coauthors)}), </> : ', '}
       <Link href={arxiv} target='_blank' className='linkDecor'>
         arXiv
       </Link>
@@ -63,7 +67,9 @@ const PublicationLi = ({
           </button>
           {''}
           {viewAbstract && (
-            <div className={styles.abstractPubli}>{abstract}</div>
+            <div className={styles.abstractPubli}>
+              <Latex>{abstract}</Latex>
+            </div>
           )}
         </>
       ) : (
