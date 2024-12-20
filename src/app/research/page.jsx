@@ -52,7 +52,7 @@ const Page = () => {
         .
       </div>
       <h3>Preprints</h3>
-      <ol reversed>
+      <ol start='3' reversed>
         <PublicationLi
           title=' $L^2$ restriction estimates from the Fourier spectrum'
           coauthors={[
