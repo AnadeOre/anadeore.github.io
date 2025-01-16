@@ -29,7 +29,7 @@ const Schedule = ({time, title, abstract, slides, speaker}) => {
           {''}
           {viewAbstract && (
             <div className={styles.abstractPubli}>
-              <Latex>{abstract}</Latex>
+              <Latex>Abstract: {abstract}</Latex>
             </div>
           )}
         </>
