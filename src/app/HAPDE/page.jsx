@@ -44,6 +44,15 @@ const Page = () => {
           <Link
             className='linkDecor'
             target='_blank'
+            href='https://sites.google.com/view/frakhmon/home'>
+            Firdavs Rakhmonov
+          </Link>
+          , University of St Andrews.
+        </li>
+        <li>
+          <Link
+            className='linkDecor'
+            target='_blank'
             href='https://warwick.ac.uk/fac/sci/maths/people/staff/takac/'>
             Jakub Takáč
           </Link>
@@ -53,8 +62,8 @@ const Page = () => {
           <Link
             className='linkDecor'
             target='_blank'
-            href='https://sites.google.com/view/frakhmon/home'>
-            Firdavs Rakhmonov
+            href='https://anadeore.github.io'>
+            Ana E. de Orellana
           </Link>
           , University of St Andrews.
         </li>
@@ -64,7 +73,7 @@ const Page = () => {
         <FoodEvent time='12:00 - 13:30' event='Lunch' />
         <br />
         <Schedule
-          time='13:30 - 14:30'
+          time='13:00 - 14:00'
           speaker='Jonathan Bennett'
           title='TBC'
           abstract='TBC.'
@@ -72,18 +81,26 @@ const Page = () => {
         />
         <br />
         <Schedule
-          time='14:30 - 15:30'
+          time='14:00 - 15:00'
           speaker='Firdavs Rakhmonov'
           title='TBC'
           abstract='TBC.'
           // slides='/'
         />
-        <br />
-        <FoodEvent time='15:30 - 16:00' event='Coffee Break' />
+        {/* <br /> */}
+        <FoodEvent time='15:00 - 15:30' event='Coffee Break' />
         <br />
         <Schedule
-          time='16:00 - 17:00'
+          time='15:30 - 16:30'
           speaker='Jakub Takáč'
+          title='TBC'
+          abstract='TBC.'
+          // slides='/'
+        />
+        <br />
+        <Schedule
+          time='16:30 - 17:30'
+          speaker='Ana E. de Orellana'
           title='TBC'
           abstract='TBC.'
           // slides='/'
