@@ -7,6 +7,8 @@ import styles from '../styles/list.module.css';
 import 'katex/dist/katex.min.css';
 import Latex from 'react-latex-next';
 
+import {SlArrowDown, SlArrowUp} from 'react-icons/sl';
+
 const PublicationLi = ({
   title,
   coauthors,
@@ -57,13 +59,12 @@ const PublicationLi = ({
             </Link>
           )}`
         : ''}
-      <br />
       {abstract !== undefined ? (
         <>
           <button
             className={styles.absButtonPubli}
             onClick={() => setViewAbstract((viewAbstract) => !viewAbstract)}>
-            {viewAbstract ? '-' : '+'} Abstract
+            {viewAbstract ? <SlArrowUp /> : <SlArrowDown />}
           </button>
           {''}
           {viewAbstract && (
@@ -75,6 +76,7 @@ const PublicationLi = ({
       ) : (
         ''
       )}
+      <br />
     </li>
   );
 };
