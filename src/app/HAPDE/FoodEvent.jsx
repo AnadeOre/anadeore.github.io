@@ -6,8 +6,8 @@ const FoodEvent = ({time, event}) => {
   return (
     <li key={time}>
       <div>
-        <span className={stylesHAPDE.times}>{time}:</span>{' '}
-        <span className={stylesHAPDE.speaker}>{event}</span>
+        <span className={stylesHAPDE.timesFood}>{time}:</span>{' '}
+        <span className={stylesHAPDE.speakerFood}>{event}</span>
       </div>
     </li>
   );
