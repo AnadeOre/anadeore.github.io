@@ -8,7 +8,7 @@ const Teaching = () => {
       <Header />
       <h1>Talks</h1>
       <h2>Future</h2>
-      <ol>
+      <ol start='12' reversed>
         {/*  */}
         <Talk
           title='TBC'
