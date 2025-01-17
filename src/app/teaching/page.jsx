@@ -12,6 +12,11 @@ const Teaching = () => {
         <li>
           <h3>2024-2025: University of St Andrews</h3>
           <div className={styles.indentedSection}>
+            <p>Tutor for MT1003: Mathematics (3 tutorials), Spring.</p>
+            <p>
+              Tutor for MT1002: Mathematics (3 tutorials + 2 examples classes),
+              Spring.
+            </p>
             <p>
               Tutor for MT2502: Analysis (3 tutorials + 2 examples classes),
               Autumn.
