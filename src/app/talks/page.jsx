@@ -8,21 +8,35 @@ const Teaching = () => {
       <Header />
       <h1>Talks</h1>
       <h2>Future</h2>
-      <ol start='12' reversed>
+      <ol start='14' reversed>
         {/*  */}
-        <Talk
-          title='TBC'
-          event='Ergodic theory and dynamical systems seminar'
-          where='University of Bristol, UK'
-          link='https://www.bristolmathsresearch.org/events/ergodic-theory-and-dynamical-systems/'
-          when='Mar. 2025'
-        />
         <Talk
           title='TBC'
           event='Workshop on Regularity Theory of PDEs and Calculus of Variations'
           where='University of Essex, UK'
           link='/'
           when='Jun. 2025'
+        />
+        <Talk
+          title='TBC'
+          event='Afternoon workshop in Harmonic Analysis and PDEs'
+          where='University of St Andrews, UK'
+          link='https://anadeore.github.io/HAPDE'
+          when='Apr. 2025'
+        />
+        <Talk
+          title='TBC'
+          event="Young Functional Analysts' Workshop"
+          where='University of Glasgow, UK'
+          link='https://sites.google.com/view/yfaw2025/home'
+          when='Apr. 2025'
+        />
+        <Talk
+          title='TBC'
+          event='Ergodic theory and dynamical systems seminar'
+          where='University of Bristol, UK'
+          link='https://www.bristolmathsresearch.org/events/ergodic-theory-and-dynamical-systems/'
+          when='Mar. 2025'
         />
       </ol>
       <h2>Past</h2>
