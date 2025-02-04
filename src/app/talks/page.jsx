@@ -14,7 +14,7 @@ const Teaching = () => {
           title='TBC'
           event='Workshop on Regularity Theory of PDEs and Calculus of Variations'
           where='University of Essex, UK'
-          link='/'
+          link='https://www.essex.ac.uk/events/2025/06/16/pdesatessex2025'
           when='Jun. 2025'
         />
         <Talk
