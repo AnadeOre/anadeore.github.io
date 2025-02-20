@@ -31,8 +31,8 @@ const Page = () => {
         <Link
           className='linkDecor'
           target='_blank'
-          href='https://forms.gle/4xmQvN86YG9Dkpay8'>
-          https://forms.gle/4xmQvN86YG9Dkpay8
+          href='https://forms.gle/q4nAVk3hGoMHT7TJ7'>
+          https://forms.gle/q4nAVk3hGoMHT7TJ7
         </Link>
         <br />
         <br />
