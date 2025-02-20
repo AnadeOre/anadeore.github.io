@@ -20,17 +20,32 @@ const Page = () => {
           target='_blank'
           href='https://sites.google.com/view/lms-hanpde-network/home'>
           HAPDE network
-        </Link>{' '}
-        on Tuesday 8th April 2025.
+        </Link>
+        .
         <br />
         <br />
-        If you wish to attend, please fill in the registration form{' '}
+        <b>Date:</b> Tuesday 8th April 2025.
+        <br />
+        <br />
+        <b>Registration:</b> Please fill in the form{' '}
         <Link
           className='linkDecor'
           target='_blank'
           href='https://forms.gle/4xmQvN86YG9Dkpay8'>
           https://forms.gle/4xmQvN86YG9Dkpay8
         </Link>
+        <br />
+        <br />
+        <b>Financial support:</b> Limited financial support is available for
+        early career researchers. If you require financial support, please
+        contact Ana de Orellana (
+        <Link
+          className='linkDecor'
+          target='_blank'
+          href='mailto:aedo1@st-andrews.ac.uk'>
+          aedo1@st-andrews.ac.uk
+        </Link>
+        ) by 15th March.
       </p>
       {/* <br /> */}
       <h3>Local organisers</h3>
