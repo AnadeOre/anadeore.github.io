@@ -37,15 +37,8 @@ const Page = () => {
         <br />
         <br />
         <b>Financial support:</b> Limited financial support is available for
-        early career researchers. If you require financial support, please
-        contact Ana de Orellana (
-        <Link
-          className='linkDecor'
-          target='_blank'
-          href='mailto:aedo1@st-andrews.ac.uk'>
-          aedo1@st-andrews.ac.uk
-        </Link>
-        ) by 15th March.
+        early career researchers. If you require financial support, please fill
+        in the registration form <em>before the 28th of March</em>.
       </p>
       {/* <br /> */}
       <h3>Local organisers</h3>
@@ -126,7 +119,7 @@ const Page = () => {
           time='16:30 - 17:30'
           speaker='Ana E. de Orellana'
           title='Extending the Stein--Tomas Theorem'
-          abstract='The Stein—Tomas restriction theorem establishes the connection between Fourier analysis and the geometric properties of measures. In this talk we study an extension of this theorem using the Fourier spectrum, a family of dimensions that live between the Fourier and Hausdorff dimensions. This leads to a restriction estimate on the cone, which although not sharp, is better than Stein—Tomas’ in all dimensions. Joint work with Marc Carnovale and Jonathan Fraser'
+          abstract='The Stein—Tomas restriction theorem establishes the connection between Fourier analysis and the geometric properties of measures. In this talk we study an extension of this theorem using the Fourier spectrum, a family of dimensions that live between the Fourier and Hausdorff dimensions. This leads to a restriction estimate on the cone, which although not sharp, is better than Stein—Tomas’ in all dimensions. Joint work with Marc Carnovale and Jonathan Fraser.'
         />
       </ul>
       <br />
