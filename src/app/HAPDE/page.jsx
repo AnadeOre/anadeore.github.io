@@ -39,6 +39,18 @@ const Page = () => {
         <b>Financial support:</b> Limited financial support is available for
         early career researchers. If you require financial support, please fill
         in the registration form <em>before the 28th of March</em>.
+        <br />
+        <br />
+        <b>Venue:</b> The workshop will take place in St Andrews at the{' '}
+        <Link
+          className='linkDecor'
+          target='_blank'
+          href='https://maps.app.goo.gl/7Jr3HiiY3dFHUn5e7'>
+          School of Mathematics and Statistics
+        </Link>
+        . The nearest train station is Leuchars, which is a 10 minute drive to
+        St Andrews. There is a regular bus service from the train station to St
+        Andrews every 10 minutes.
       </p>
       {/* <br /> */}
       <h3>Local organisers</h3>
