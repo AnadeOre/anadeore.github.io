@@ -75,8 +75,8 @@ const Page = () => {
         <Schedule
           time='13:00 - 14:00'
           speaker='Jonathan Bennett'
-          title='TBC'
-          abstract='TBC.'
+          title='Wigner functions in Fourier restriction theory and beyond'
+          abstract='In a celebrated 1932 paper Eugene Wigner showed that a certain phase-space distribution (later to be called the Wigner distribution, or Wigner function) of a solution $u(x,t)$ to a Schr\"odinger evolution equation satisfies a classical transport equation. In particular, this allows the density $|u(x,t)|^2$ of a solution to the free Schr\"odinger equation to be expressed as a superposition of Dirac masses on space-time lines — a property that has significant consequences in theoretical physics. In this talk we extend this phase-space (or "ray bundle") representation to more general Fourier extension operators and present some applications in harmonic analysis. Our general perspective has its origins in optics, where one is naturally interested in representing the intensity of an optical wave field as a superposition of light rays. This is joint work with Susana Gutierrez, Shohei Nakamura and Itamar Oliveira.'
           // slides='/'
         />
         <br />
@@ -101,9 +101,8 @@ const Page = () => {
         <Schedule
           time='16:30 - 17:30'
           speaker='Ana E. de Orellana'
-          title='TBC'
-          abstract='TBC.'
-          // slides='/'
+          title='Extending the Stein--Tomas Theorem'
+          abstract='The Stein—Tomas restriction theorem establishes the connection between Fourier analysis and the geometric properties of measures. In this talk we study an extension of this theorem using the Fourier spectrum, a family of dimensions that live between the Fourier and Hausdorff dimensions. This leads to a restriction estimate on the cone, which although not sharp, is better than Stein—Tomas’ in all dimensions. Joint work with Marc Carnovale and Jonathan Fraser'
         />
       </ul>
       <br />
