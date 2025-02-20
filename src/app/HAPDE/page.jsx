@@ -22,6 +22,15 @@ const Page = () => {
           HAPDE network
         </Link>{' '}
         on Tuesday 8th April 2025.
+        <br />
+        <br />
+        If you wish to attend, please fill in the registration form{' '}
+        <Link
+          className='linkDecor'
+          target='_blank'
+          href='https://forms.gle/4xmQvN86YG9Dkpay8'>
+          https://forms.gle/4xmQvN86YG9Dkpay8
+        </Link>
       </p>
       {/* <br /> */}
       <h3>Local organisers</h3>
