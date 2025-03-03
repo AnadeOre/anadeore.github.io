@@ -32,7 +32,7 @@ const Teaching = () => {
           when='Apr. 2025'
         />
         <Talk
-          title='TBC'
+          title='Fourier restriction for multifractals'
           event='Ergodic theory and dynamical systems seminar'
           where='University of Bristol, UK'
           link='https://www.bristolmathsresearch.org/events/ergodic-theory-and-dynamical-systems/'
