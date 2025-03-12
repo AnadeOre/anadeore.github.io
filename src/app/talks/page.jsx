@@ -25,25 +25,25 @@ const Teaching = () => {
           when='Apr. 2025'
         />
         <Talk
-          title='TBC'
+          title='Dimension interpolation and restriction theorems.'
           event="Young Functional Analysts' Workshop"
           where='University of Glasgow, UK'
           link='https://sites.google.com/view/yfaw2025/home'
           when='Apr. 2025'
-        />
-        <Talk
-          title='Fourier restriction for multifractals'
-          event='Ergodic theory and dynamical systems seminar'
-          where='University of Bristol, UK'
-          link='https://www.bristolmathsresearch.org/events/ergodic-theory-and-dynamical-systems/'
-          when='Mar. 2025'
         />
       </ol>
       <h2>Past</h2>
       <ol reversed>
         {/*  */}
         <Talk
-          title='A new perspective on the Stein--Tomas Theorem'
+          title='Fourier restriction for multifractals.'
+          event='Ergodic theory and dynamical systems seminar'
+          where='University of Bristol, UK'
+          link='https://www.bristolmathsresearch.org/events/ergodic-theory-and-dynamical-systems/'
+          when='Mar. 2025'
+        />
+        <Talk
+          title='A new perspective on the Stein--Tomas Theorem.'
           event='One World Fractals'
           where='University of St Andrews (online), UK'
           link='https://www.oneworldfractals.org/past/owf20241127/'
