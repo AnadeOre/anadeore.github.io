@@ -126,8 +126,15 @@ const Page = () => {
         <Schedule
           time='15:30 - 16:30'
           speaker='Jakub Takáč'
-          title='TBC'
-          abstract='TBC.'
+          title='Tangent fields to sets and measures, their dimension and typical behaviour of Lipschitz maps'
+          abstract="In geometric measure theory, it is of interest to construct very weak notions of tangent fields to measures or sets, which might be much more singular that those arising from smooth manifolds, or even rectifiable sets. The dimension of the tangents plays an important role in the behaviour of Lipschitz functions on the given set or with respect to the given measure.
+
+For example, given a measure $\mu$ in $\mathbb{R}^n$, one may construct a so-called decomposability bundle $V=V(x)$, which is really a field of vector subspaces of $\mathbb{R}^n$ defined for $\mu$-almost every $x\in \mathbb{R}^n$ such that \emph{every} Lipschitz map is differentiable w.r.t. $V(x)$ at $x$ for $\mu$-a.e.$x$. By Rademacher's theorem, for the Lebesgue measure we may take $V(x)=\mathbb{R}^n$ for every $x$. This type of a tangent field can also be described in terms of Alberti representations or metric $1$-currents.
+
+For a set $E\subset \mathbb{R}^n$, the notion of weak tangent field is used. This essentially attaches to each point $x\in S$ the set of vectors $v$ such that there are Lipschitz curves $\gamma$ in $E$ going in the direction of $v$ at the point $x$, i.e. $\gamma'(\gamma^{-1}(x))=v$.
+
+These notions can be generalized to work in metric spaces and have been successfully employed to solve a number of problems. They can be used to characterise rectifiability or to show the metric-space analogue of Besicovitch-Federer projection theorem.
+In the talk, I will go over the basic definitions and present a selection of the most interesting theorems related to these two notions. In particular, I will give on overview of the most recent results from my joint work with G. Alberti, D. Bate and A. Marchese. Our results concern perturbations of measures via Lipschitz maps. The dimension of the tangent field is the sharp estimate on the Hausodrff dimension of the typical perturbation (in particular, the Hausdorff dimension of the typical perturbation cannot be fractional). As an example, any measure supported on a purely unrectifiable set can be perturbed by an arbitrarily small $1$-Lipschitz perturbation so as to become $0$-dimensional."
           // slides='/'
         />
         <br />
