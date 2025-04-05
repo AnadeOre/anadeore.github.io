@@ -50,8 +50,10 @@ const Page = () => {
           href='https://maps.app.goo.gl/7Jr3HiiY3dFHUn5e7'>
           School of Mathematics and Statistics
         </Link>
-        . The nearest train station is Leuchars, which is a 10 minute drive to
-        St Andrews. There is a regular bus service from the train station to St
+        , in Tutorial Room 1A.
+        <br />
+        The nearest train station is Leuchars, which is a 10 minute drive to St
+        Andrews. There is a regular bus service from the train station to St
         Andrews every 10 minutes.
       </p>
       {/* <br /> */}
@@ -101,7 +103,10 @@ const Page = () => {
       </ul>
       <h2>Schedule</h2>
       <ul>
-        <FoodEvent time='12:00 - 13:00' event='Lunch' />
+        <FoodEvent
+          time='12:00 - 13:00'
+          event='Lunch: There are plenty of lunch options in town, or closer to the Maths building in the Physics and Medicine Cafés.'
+        />
         <br />
         <Schedule
           time='13:00 - 14:00'
