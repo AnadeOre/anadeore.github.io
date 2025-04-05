@@ -24,6 +24,10 @@ const Teaching = () => {
           link='https://anadeore.github.io/HAPDE'
           when='Apr. 2025'
         />
+      </ol>
+      <h2>Past</h2>
+      <ol reversed>
+        {/*  */}
         <Talk
           title='Dimension interpolation and restriction theorems.'
           event="Young Functional Analysts' Workshop"
@@ -31,10 +35,6 @@ const Teaching = () => {
           link='https://sites.google.com/view/yfaw2025/home'
           when='Apr. 2025'
         />
-      </ol>
-      <h2>Past</h2>
-      <ol reversed>
-        {/*  */}
         <Talk
           title='Fourier restriction for multifractals.'
           event='Ergodic theory and dynamical systems seminar'
