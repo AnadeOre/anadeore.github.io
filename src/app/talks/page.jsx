@@ -18,7 +18,7 @@ const Teaching = () => {
           when='Jun. 2025'
         />
         <Talk
-          title='TBC'
+          title='Extending the Stein--Tomas theorem'
           event='Afternoon workshop in Harmonic Analysis and PDEs'
           where='University of St Andrews, UK'
           link='https://anadeore.github.io/HAPDE'
