@@ -17,6 +17,9 @@ const Teaching = () => {
           link='https://www.essex.ac.uk/events/2025/06/16/pdesatessex2025'
           when='Jun. 2025'
         />
+      </ol>
+      <h2>Past</h2>
+      <ol reversed>
         <Talk
           title='Extending the Stein--Tomas theorem'
           event='Afternoon workshop in Harmonic Analysis and PDEs'
@@ -24,10 +27,6 @@ const Teaching = () => {
           link='https://anadeore.github.io/HAPDE'
           when='Apr. 2025'
         />
-      </ol>
-      <h2>Past</h2>
-      <ol reversed>
-        {/*  */}
         <Talk
           title='Dimension interpolation and restriction theorems.'
           event="Young Functional Analysts' Workshop"
