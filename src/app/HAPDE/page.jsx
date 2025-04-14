@@ -1,18 +1,23 @@
 import React from 'react';
 import Link from 'next/link';
 import Schedule from './ScheduleHAPDE';
-import CoffeBreak from './FoodEvent';
-import HeaderEvent from './HeaderEvent';
-import Footer from '../components/Footer';
+import Header from '../components/Header';
 import stylesHAPDE from './stylesHAPDE.module.css';
-import CoffeeBreak from './FoodEvent';
 import FoodEvent from './FoodEvent';
+import Image from 'next/image';
 
 const Page = () => {
   return (
     <div>
-      <HeaderEvent />
+      <Header />
       <h1>Harmonic Analysis & PDE network</h1>
+      <Image
+        src='/HAPDEphotos/GroupSmall.jpeg'
+        width={1077.8}
+        height={368.4}
+        alt='Group photo'
+      />
+      More photos at the bottom.
       <p>
         We will host an afternoon workshop in St Andrews as part of the{' '}
         <Link
@@ -152,6 +157,41 @@ In the talk, I will go over the basic definitions and present a selection of the
       </ul>
       <br />
       After this we will go to the pub and then dinner.
+      <br />
+      <br />
+      <h2>Event photos</h2>
+      <Image
+        src='/HAPDEphotos/Bennett.JPG'
+        width={512}
+        height={384}
+        alt='Bennett'
+      />
+      <Image
+        src='/HAPDEphotos/Firdavs.JPG'
+        width={512}
+        height={384}
+        alt='Firdavs'
+      />
+      <Image
+        src='/HAPDEphotos/Jakub.JPG'
+        width={512}
+        height={384}
+        alt='Jakub'
+      />
+      <Image src='/HAPDEphotos/Ana.JPG' width={512} height={384} alt='Ana' />
+      <Image src='/HAPDEphotos/pub.JPG' width={512} height={384} alt='pub' />
+      <Image
+        src='/HAPDEphotos/Dinner1.JPG'
+        width={512}
+        height={384}
+        alt='Dinner1'
+      />
+      <Image
+        src='/HAPDEphotos/Dinner2.JPG'
+        width={512}
+        height={384}
+        alt='Dinner2'
+      />
     </div>
   );
 };
