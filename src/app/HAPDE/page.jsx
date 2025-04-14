@@ -179,7 +179,7 @@ In the talk, I will go over the basic definitions and present a selection of the
         alt='Jakub'
       />
       <Image src='/HAPDEphotos/Ana.JPG' width={512} height={384} alt='Ana' />
-      <Image src='/HAPDEphotos/pub.JPG' width={512} height={384} alt='pub' />
+      <Image src='/HAPDEphotos/Pub.JPG' width={512} height={384} alt='Pub' />
       <Image
         src='/HAPDEphotos/Dinner1.JPG'
         width={512}
