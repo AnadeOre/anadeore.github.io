@@ -23,18 +23,6 @@ export default function Home() {
         </div>
         <div className={styles.description}>
           <p>
-            On the 8th of April we will host an afternoon workshop in St Andrews
-            as part of the HAPDE network. For more information and to register
-            click here:{' '}
-            <Link
-              className='linkDecor'
-              target='_blank'
-              href='https://anadeore.github.io/HAPDE'>
-              https://anadeore.github.io/HAPDE
-            </Link>
-            .
-          </p>
-          <p>
             I am a second year Maths PhD student at the University of St
             Andrews, supervised by{' '}
             <Link
