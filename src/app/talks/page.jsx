@@ -11,7 +11,7 @@ const Teaching = () => {
       <ol start='14' reversed>
         {/*  */}
         <Talk
-          title='TBC'
+          title='Fourier restriction and fractal dimensions'
           event='Workshop on Regularity Theory of PDEs and Calculus of Variations'
           where='University of Essex, UK'
           link='https://www.essex.ac.uk/events/2025/06/16/pdesatessex2025'
