@@ -7,9 +7,12 @@ const Teaching = () => {
     <div>
       <Header />
       <h1>Talks</h1>
-      <h2>Future</h2>
+      {/* <h2>Future</h2> */}
       <ol start='14' reversed>
         {/*  */}
+      </ol>
+      {/* <h2>Past</h2> */}
+      <ol reversed>
         <Talk
           title='Fourier restriction and fractal dimensions'
           event='Workshop on Regularity Theory of PDEs and Calculus of Variations'
@@ -17,9 +20,6 @@ const Teaching = () => {
           link='https://www.essex.ac.uk/events/2025/06/16/pdesatessex2025'
           when='Jun. 2025'
         />
-      </ol>
-      <h2>Past</h2>
-      <ol reversed>
         <Talk
           title='Extending the Stein--Tomas theorem'
           event='Afternoon workshop in Harmonic Analysis and PDEs'
