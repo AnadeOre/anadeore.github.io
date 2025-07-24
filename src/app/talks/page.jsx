@@ -7,11 +7,24 @@ const Teaching = () => {
     <div>
       <Header />
       <h1>Talks</h1>
-      {/* <h2>Future</h2> */}
-      <ol start='14' reversed>
-        {/*  */}
+      <h2>Future</h2>
+      <ol start='16' reversed>
+        <Talk
+          title='TBA'
+          event="Young Functional Analysts' Workshop"
+          where='Cardiff University, UK'
+          link=''
+          when='Mar. 2026'
+        />
+        <Talk
+          title='Fourier restriction and a continuum of dimensions'
+          event='2nd Atlantic conference in nonlinear PDEs'
+          where='Universidade de Lisboa, Portugal'
+          link='https://sites.google.com/view/atlanticpdes/home'
+          when='Nov. 2025'
+        />
       </ol>
-      {/* <h2>Past</h2> */}
+      <h2>Past</h2>
       <ol reversed>
         <Talk
           title='Fourier restriction and fractal dimensions'
