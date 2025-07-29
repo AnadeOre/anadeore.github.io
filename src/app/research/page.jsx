@@ -69,6 +69,9 @@ const Page = () => {
           arxiv='https://arxiv.org/abs/2412.14896'
           abstract='The Stein--Tomas  restriction theorem is an important  result in Fourier restriction theory.  It gives a range of $q$  for which $L^q\to L^2$ restriction estimates hold for a given measure, in terms of the Fourier and Frostman dimensions of the measure. We generalise this result by using the Fourier spectrum; a family of dimensions that interpolate between the Fourier and Sobolev dimensions for measures.  This gives us a continuum of Stein--Tomas type estimates, and optimising over this continuum gives a new $L^q\to L^2$ restriction theorem which often outperforms the Stein--Tomas result.  We also provide results in the other direction by giving a range of $q$ in terms of the Fourier spectrum for which $L^q\to L^2$ restriction estimates fail, generalising an observation  of Hambrook and Łaba.  We illustrate our results with several examples, including the surface measure on the cone, the moment curve, and several fractal measures..'
         />
+      </ol>
+      <h3>To appear</h3>
+      <ol reversed>
         <PublicationLi
           title='Obtaining the Fourier spectrum via Fourier coefficients'
           coauthors={[
@@ -82,12 +85,11 @@ const Page = () => {
             },
           ]}
           year='2024'
+          tap='to appear'
+          journal='Proceedings of the American Mathematical Society'
           arxiv='https://arxiv.org/abs/2403.12603'
           abstract='The Fourier spectrum is a family of dimensions that interpolates between the Fourier and Hausdorff dimensions and are defined in terms of certain energies which capture Fourier decay. In this paper we obtain a convenient discrete representation of those energies using the Fourier coefficients. As an example application, we use this representation to establish sharp bounds for the Fourier spectrum of a general measure with bounded support, improving previous estimates of the second-named author.'
         />
-      </ol>
-      <h3>To appear</h3>
-      <ol reversed>
         <PublicationLi
           title='A Fourier analytic approach to exceptional set estimates for orthogonal projections'
           coauthors={[
