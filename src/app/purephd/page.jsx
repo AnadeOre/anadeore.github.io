@@ -12,8 +12,8 @@ const Page = () => {
       <p>
         The Pure PhDs Seminar will run every{' '}
         <strong>odd week on Wednesdays at 16:00 in Lecture Theatre D</strong> of
-        the Mathematical Institute. We will meet in the staff room for biscuits
-        at 15:50
+        the Mathematical Institute. We will meet in the staff room at 15:30 for
+        tea and biscuits.
       </p>
       <h2>Schedule</h2>
       <ul>
