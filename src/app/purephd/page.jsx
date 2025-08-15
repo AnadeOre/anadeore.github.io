@@ -8,11 +8,12 @@ const Page = () => {
   return (
     <div>
       <HeaderEvent eventURL={'purephd'} photos={false} />
-      <h1>Pure PhDs Seminar</h1>
+      <h1>Pure Maths PhDs Seminar</h1>
       <p>
         The Pure PhDs Seminar will run every{' '}
         <strong>odd week on Wednesdays at 16:00 in Lecture Theatre D</strong> of
-        the Mathematical Institute.
+        the Mathematical Institute. We will meet in the staff room for biscuits
+        at 15:50
       </p>
       <h2>Schedule</h2>
       <ul>
@@ -56,13 +57,13 @@ const Page = () => {
           // slides='/'
         />
         <br />
-        <Schedule
+        {/* <Schedule TYANYI FENG
           time='26/11/2025'
           speaker='Speaker name'
           title='Talk title (Analysis talk)'
           abstract='Abstract here'
           // slides='/'
-        />
+        /> */}
         <br />
         <Schedule
           time='10/12/2025'
