@@ -16,43 +16,43 @@ const Page = () => {
       </p>
       <h2>Schedule</h2>
       <ul>
-        <Schedule
+        {/* <Schedule {/% This one was removed because we don't have room on week 1%/}
           time='17/09/2025'
           speaker='Speaker name'
           title='Talk title (Algebra talk)'
           abstract='Abstract here'
           // slides='/'
         />
-        <br />
+        <br /> */}
         <Schedule
           time='01/10/2025'
-          speaker='Speaker name'
-          title='Talk title (Analysis talk)'
-          abstract='Abstract here'
+          speaker='Saeed Shaabanian'
+          title='TBC'
+          abstract='TBC'
           // slides='/'
         />
         <br />
         <Schedule
           time='15/10/2025'
-          speaker='Speaker name'
-          title='Talk title (Algebra talk)'
-          abstract='Abstract here'
+          speaker='Jung Won Cho'
+          title='TBC'
+          abstract='TBC'
           // slides='/'
         />
         <br />
         <Schedule
           time='29/10/2025'
-          speaker='Speaker name'
-          title='Talk title (Analysis talk)'
-          abstract='Abstract here'
+          speaker='Boyuan Zhao'
+          title='TBC'
+          abstract='TBC'
           // slides='/'
         />
         <br />
         <Schedule
           time='12/11/2025'
-          speaker='Speaker name'
-          title='Talk title (Geometry talk)'
-          abstract='Abstract here'
+          speaker='Dr Thibault Poiret'
+          title='TBC'
+          abstract='TBC'
           // slides='/'
         />
         <br />
@@ -66,9 +66,9 @@ const Page = () => {
         <br />
         <Schedule
           time='10/12/2025'
-          speaker='Speaker name'
-          title='Talk title (Algebra talk)'
-          abstract='Abstract here'
+          speaker='Victoria Ironmonger'
+          title='TBC'
+          abstract='TBC'
           // slides='/'
         />
         <br />
