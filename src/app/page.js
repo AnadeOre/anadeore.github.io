@@ -23,8 +23,8 @@ export default function Home() {
         </div>
         <div className={styles.description}>
           <p>
-            I am a second year Maths PhD student at the University of St
-            Andrews, supervised by{' '}
+            I am a third year Maths PhD student at the University of St Andrews,
+            supervised by{' '}
             <Link
               className='linkDecor'
               target='_blank'
@@ -95,7 +95,7 @@ export default function Home() {
           aedo1@st-andrews.ac.uk
         </Link>
         <br />
-        103, Mathematics Institute
+        Room 103, Mathematics Institute
         <br />
         University of St Andrews
         <br />
