@@ -46,7 +46,7 @@ const Page = () => {
             <br />
             <li>
               <Link href='https://anadeore.github.io/purephd' target='_blank'>
-                Pure PhDs seminar 2025-2026 in St Andrews
+                Pure Maths PhDs Seminar 2025-2026 in St Andrews
               </Link>
             </li>
           </ul>
