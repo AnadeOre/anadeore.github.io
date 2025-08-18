@@ -20,6 +20,10 @@ const Page = () => {
           </p>
           <ul className={linksStyle.ul}>
             <NoteLi
+              title='The Brascamp-Lieb inequality'
+              pdf='/Notes/BrascampLieb.pdf'
+            />
+            <NoteLi
               desc='My reading group presentation at the University of St Andrews. Autumn 2024-2025.'
               title='Decoupling for the parabola and the Kakeya conjecture'
               pdf='/Notes/Decoupling.pdf'
