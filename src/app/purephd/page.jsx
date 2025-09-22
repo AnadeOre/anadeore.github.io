@@ -28,8 +28,8 @@ const Page = () => {
         <Schedule
           time='01/10/2025'
           speaker='Saeed Shaabanian'
-          title='How fast does an orbit become dense in countable Markov shifts?'
-          abstract='Consider a set consisting of countable sequences over the alphabet of natural numbers. We assume a dynamic on this set given by the shift map, which moves each component of a sequence one step to the left. By the orbit of a point, we mean the iterations of the shift map on that point. It has long been known that such orbits become dense in the system; however, in this talk, we will explore the question of the rate at which this denseness occurs.'
+          title='TBC'
+          abstract='TBC'
           // slides='/'
         />
         <br />

@@ -17,7 +17,7 @@ const Schedule = ({time, title, abstract, slides, speaker}) => {
         <span className={stylesPPS.speaker}>{speaker}</span>
       </div>
       <span>{'   '}</span>
-      <b className={stylesPPS.speaker}>{title}</b>
+      <b>{title}</b>
       <span>{'   '}</span>
       {abstract !== undefined ? (
         <>
