@@ -14,28 +14,29 @@ const Schedule = ({time, title, abstract, slides, speaker}) => {
     <li key={title}>
       <div>
         <span className={stylesPPS.times}>{time}:</span>{' '}
-        <span className={stylesPPS.speaker}>{speaker}</span>
+        <span className={stylesPPS.speaker}>{speaker}:</span>
+        <span>{'   '}</span>
+        <b className={stylesPPS.speaker}>{title}</b>
+        <span>{'   '}</span>{' '}
+        {abstract !== undefined ? (
+          <>
+            <button
+              className={styles.absButtonPubli}
+              onClick={() => setViewAbstract((viewAbstract) => !viewAbstract)}>
+              {viewAbstract ? <SlArrowUp /> : <SlArrowDown />}
+            </button>
+            {''}
+            {viewAbstract && (
+              <div className={styles.abstractPubli}>
+                <Latex>Abstract: {abstract}</Latex>
+              </div>
+            )}
+          </>
+        ) : (
+          ''
+        )}
       </div>
-      <span>{'   '}</span>
-      <b>{title}</b>
-      <span>{'   '}</span>
-      {abstract !== undefined ? (
-        <>
-          <button
-            className={styles.absButtonPubli}
-            onClick={() => setViewAbstract((viewAbstract) => !viewAbstract)}>
-            {viewAbstract ? <SlArrowUp /> : <SlArrowDown />}
-          </button>
-          {''}
-          {viewAbstract && (
-            <div className={styles.abstractPubli}>
-              <Latex>Abstract: {abstract}</Latex>
-            </div>
-          )}
-        </>
-      ) : (
-        ''
-      )}
+
       {/* (
       {slides && (
         <Link href={slides} target='_blank' className='linkDecor'>
