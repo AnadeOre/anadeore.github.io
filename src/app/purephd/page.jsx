@@ -57,13 +57,13 @@ const Page = () => {
           // slides='/'
         />
         <br />
-        {/* <Schedule TYANYI FENG
+        <Schedule
           time='26/11/2025'
-          speaker='Speaker name'
-          title='Talk title (Analysis talk)'
-          abstract='Abstract here'
+          speaker='Lijian Yang'
+          title='TBC'
+          abstract='TBC'
           // slides='/'
-        /> */}
+        />
         <br />
         <Schedule
           time='10/12/2025'
