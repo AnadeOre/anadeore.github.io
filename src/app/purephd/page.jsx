@@ -42,7 +42,7 @@ const Page = () => {
         />
         <br />
         <Schedule
-          time='29/10/2025'
+          time='29/10/2025  (in Physics room 233)'
           speaker='Boyuan Zhao'
           title='TBC'
           abstract='TBC'
