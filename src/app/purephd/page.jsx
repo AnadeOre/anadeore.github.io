@@ -11,7 +11,7 @@ const Page = () => {
       <h1>Pure Maths PhDs Seminar</h1>
       <p>
         The Pure PhDs Seminar will run every{' '}
-        <strong>odd week on Wednesdays at 16:00 in Lecture Theatre D</strong> of
+        <strong>odd week on Wednesdays at 16:00 in Lecture Theatre C</strong> of
         the Mathematical Institute. We will meet in the staff room at 15:30 for
         tea and biscuits.
       </p>
