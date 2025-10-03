@@ -36,8 +36,8 @@ const Page = () => {
         <Schedule
           time='15/10/2025'
           speaker='Jung Won Cho'
-          title='TBC'
-          abstract='TBC'
+          title='Inverse semigroups and free inverse semigroups'
+          abstract='An inverse semigroup is an algebraic structure which sits between a group and a semigroup. In the past, inverse semigroups were sometimes called generalised groups. A non-trivial fact about inverse semigroups is that free inverse semigroups exist (Schein (1963)). There are a few different ways to represent free inverse semigroups and we will see that just describing elements of free inverse semigroups is more complicated compared to elements of free groups or free semigroups. In this talk, I will start with an introduction to inverse semigroups with motivation and history. Then, we will see some combinatorial results about free inverse semigroups and their (inverse) subsemigroups.'
           // slides='/'
         />
         <br />
