@@ -51,9 +51,9 @@ const Page = () => {
         <br />
         <Schedule
           time='12/11/2025'
-          speaker='Dr Thibault Poiret'
-          title='TBC'
-          abstract='TBC'
+          speaker='Dr. Thibault Poiret'
+          title='Parametrizing spaces and limits of shapes'
+          abstract='A lot of modern algebraic geometry is about understanding the geometry of moduli spaces. These are spaces parametrizing objects of a certain type $T$. When $T$ consists of smooth objects, the moduli space is often not compact, because "families of smooth things want to converge to non-smooth things". I will talk about some of the most important and well-studied moduli spaces, and some tricks to deal with the non-compactness issue.'
           // slides='/'
         />
         <br />
