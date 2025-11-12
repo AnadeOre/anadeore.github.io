@@ -42,7 +42,7 @@ const Page = () => {
         />
         <br />
         <Schedule
-          time='29/10/2025  (in Physics room 233)'
+          time='29/10/2025'
           speaker='Boyuan Zhao'
           title='Convergence rate for Birkhoff spectrum of non-integrable observables'
           abstract='For a probability preserving system $(X,T,\mu)$ and an $L^1$ observable $\tau$, the Birkhoff ergodic theorem asserts that for a full measure set of points in $X$, the ergodic averages $\frac1n S_n\tau(x)=\frac1n \sum_{i=0}^{n-1}\tau(T^ix)$ converges to the space average $\int\tau d\mu$. However, one can study the multifractal spectrum, i.e. Hausdorff dimension of the level sets (which have measure zero): $J(\alpha):=\left\{x\in X: \lim_{n\to\infty}\frac1n S_n\tau(x)=\alpha\right\}$. Using thermodynamic formalism results, one can obtain an explicit formula for $b(\alpha):=\dim_H(J(\alpha))$. Although the conclusion of Birkhoff ergodic theorem fails for non-integrable observables, similar approaches can be applied together with basic calculus to obtain the rate of convergence of the dimension of level sets to full dimension.'
