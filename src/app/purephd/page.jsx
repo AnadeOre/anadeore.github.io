@@ -67,7 +67,7 @@ const Page = () => {
         <br />
         <Schedule
           time='10/12/2025'
-          speaker='Victoria Ironmonger'
+          speaker='Yayi Zhu'
           title='TBC'
           abstract='TBC'
           // slides='/'
