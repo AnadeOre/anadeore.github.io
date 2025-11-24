@@ -16,13 +16,6 @@ const Teaching = () => {
           link=''
           when='Mar. 2026'
         />
-        {/* <Talk
-          title='Fourier restriction and a continuum of dimensions'
-          event='2nd Atlantic conference in nonlinear PDEs'
-          where='Universidade de Lisboa, Portugal'
-          link='https://sites.google.com/view/atlanticpdes/home'
-          when='Nov. 2025'
-        /> */}
       </ol>
       <h2>Past</h2>
       <ol reversed>
