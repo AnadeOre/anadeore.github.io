@@ -60,8 +60,8 @@ const Page = () => {
         <Schedule
           time='26/11/2025'
           speaker='Lijian Yang'
-          title='TBC'
-          abstract='TBC'
+          title='Fourier Dimension and Kakeya-Type Sets in the Plane'
+          abstract='The Fourier dimension of a Borel set is defined in terms of the decay rate of the Fourier transform of measures supported on the set. Roughly speaking, it measures how "smoothly" the mass of the set is distributed in frequency space. The Fourier dimension, originally motivated by the Hausdorff dimension, is always less than or equal to the Hausdorff dimension. In this talk, we will discuss several properties of the Fourier dimension and compute it for some examples. In particular, we will show that the Fourier dimension of any Kakeya set in the plane is 2. We will also examine the range of possible Fourier dimensions for certain restricted Kakeya-type sets in the plane.'
           // slides='/'
         />
         <br />
