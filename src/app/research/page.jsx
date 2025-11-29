@@ -2,7 +2,6 @@ import React from 'react';
 import Link from 'next/link';
 import DissertationDiv from '../components/DissertationDiv';
 import PublicationLi from '../components/PublicationLi';
-import Footer from '../components/Footer';
 import Header from '../components/Header';
 
 const Page = () => {
@@ -11,21 +10,20 @@ const Page = () => {
       <Header />
       <h1>Research</h1>
       <p>
-        While the Hausdorff dimension of a set gives information regarding its
-        geometric scaling properties, the Fourier dimension quentifies how
-        structured vs how random that set is. For example, the Cantor set (very
-        algebraically structured) has Fourier dimension zero, but random sets
-        are usually Salem sets, i.e. their Fourier dimension is as large as it
-        can be, being equal to their Hausdorff dimension.
+        I'm interested in how tools from Fourier analysis can reveal information
+        about how structured/random sets are. 'Traditional' notions of dimension
+        describe how fractal sets are distributed in space, but the Fourier
+        dimension gives us information about how structured the sets are, from
+        an arithmetical point of view. This perspective connects with many
+        classical themes in fractal geometry, such as orthogonal projections,
+        and distance sets.
         <br />
-        In these situations, where we have two dimensions that capture different
-        types of information, dimension interpolation is useful to gain insight
-        on their relation. I'm currently studying the Fourier spectrum, a family
-        of dimensions that live between the Fourier and the Hausdorff dimensions
-        for sets and Fourier and Sobolev dimensions for measures.
-        {/* Unerstanding how these dimensions */}
-        {/* behave gives more insight into the relation between the dimensions it */}
-        {/* interpolates. */}
+        At the same time, fractal sets are themselves a natural space in which
+        we can revisit questions from harmonic analysis. Many problems change
+        their character when posed on fractal measures rather than on smooth
+        ones. This shift often brings new phenomena into light. I'm interested
+        in exploring how ideas from dimension theory can shed light on
+        restriction-type problems for fractal measures.
       </p>
       <div>
         <b>My identifiers:</b>{' '}
