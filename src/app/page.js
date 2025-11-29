@@ -41,10 +41,20 @@ export default function Home() {
             . I completed my undergraduate studies in mathemathics at the
             Universidad Nacional del Litoral, in Argentina.
           </p>
-          <p>
+          {/* <p>
             My research interests are in dimension theory. Specifically, in the
             connection between geometric measure theory and Fourier analysis
             through the Fourier spectrum. Visit my{' '}
+            <Link href='/research' className='linkDecor'>
+              research page
+            </Link>{' '}
+            for more details.
+          </p> */}
+          <p>
+            My research interests lie in the connection between fractal geometry
+            and harmonic analysis. I like using ideas from Fourier analysis to
+            understand fractal structures, and using fractal sets to rethink
+            classical problems in harmonic analysis. Visit my{' '}
             <Link href='/research' className='linkDecor'>
               research page
             </Link>{' '}
