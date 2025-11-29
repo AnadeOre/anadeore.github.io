@@ -51,8 +51,8 @@ export default function Home() {
             for more details.
           </p> */}
           <p>
-            My research interests lie in the connection between fractal geometry
-            and harmonic analysis. I like using ideas from Fourier analysis to
+            My work sits at the intersection of fractal geometry and harmonic
+            analysis. I'm interested in using ideas from Fourier analysis to
             understand fractal structures, and using fractal sets to rethink
             classical problems in harmonic analysis. Visit my{' '}
             <Link href='/research' className='linkDecor'>
