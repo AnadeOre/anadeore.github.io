@@ -68,7 +68,7 @@ const Page = () => {
         <Schedule
           time='10/12/2025'
           speaker='Yayi Zhu'
-          title="Green's $J$-relation and the presentations for transformation semigroups"
+          title="Green's J-relation and the presentations for transformation semigroups"
           abstract="Green's $J$-relation partition transformation semigroups (the full transformation semigroup $\mathcal{T}_n$, the symmetric inverse monoid $\mathcal{I}_n$, and the partial transformation semigroup $\mathcal{PT}_n$) into $J$-classes in a nice way, where all (partial) maps in one $J$-class are of the same rank, and the $J$-classes form a chain. In this talk we go through some classical presentations for $\mathcal{T}_n$, $\mathcal{I}_n$, and some more recent research on their ideals. We then discuss the position (in the chain of $J$-classes) of the relations required in any presentation for the above semigroups, by specifying their 'depth'."
           // slides='/'
         />
