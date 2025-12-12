@@ -20,7 +20,7 @@ const Teaching = () => {
           title='TBA'
           event='Dynamical Systems seminar'
           where='University of Loughborough, UK'
-          link=''
+          link='https://www.lboro.ac.uk/departments/maths/events/seminars/dynamical-systems-seminar/'
           when='Mar. 2026'
         />
       </ol>
