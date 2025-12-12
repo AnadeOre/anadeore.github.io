@@ -16,6 +16,13 @@ const Teaching = () => {
           link=''
           when='Mar. 2026'
         />
+        <Talk
+          title='TBA'
+          event='Dynamical Systems seminar'
+          where='University of Loughborough, UK'
+          link=''
+          when='Mar. 2026'
+        />
       </ol>
       <h2>Past</h2>
       <ol reversed>
