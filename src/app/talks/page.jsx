@@ -8,12 +8,19 @@ const Teaching = () => {
       <Header />
       <h1>Talks</h1>
       <h2>Future</h2>
-      <ol start='15' reversed>
+      <ol start='16' reversed>
+        <Talk
+          title='TBA'
+          event='Geometric measure theory and Metric geometry'
+          where='University of Warwick, UK'
+          link='https://sites.google.com/view/emanuelecaputo/home-page/conference-geometric-measure-theory-and-metric-geometry'
+          when='Mar. 2026'
+        />
         <Talk
           title='TBA'
           event="Young Functional Analysts' Workshop"
           where='Cardiff University, UK'
-          link=''
+          link='https://sites.google.com/site/yfawuk/'
           when='Mar. 2026'
         />
         <Talk
