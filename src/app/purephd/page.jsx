@@ -7,11 +7,11 @@ import stylesPPS from './stylesPPS.module.css';
 const Page = () => {
   return (
     <div>
-      <HeaderEvent eventURL={'purephdSem1'} photos={false} />
+      <HeaderEvent eventURL={'purephd'} photos={false} />
       <h1>Pure Maths PhDs Seminar - Candlemas Semester 2025-2026</h1>
       <p>
         Click{' '}
-        <Link href='/purephdSem1' target='_blank'>
+        <Link href='/purephd/martinmas2526' target='_blank'>
           here
         </Link>{' '}
         for the Martinmas semester Schedule
