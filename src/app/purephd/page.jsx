@@ -26,7 +26,7 @@ const Page = () => {
       <ul>
         <Schedule
           time='11/02/2026' //ANALYSIS (Fabian?)
-          speaker='TBC'
+          speaker='Fabian Despinoy'
           // title='TBC'
           // abstract='TBC'
           // slides='/'
@@ -58,7 +58,7 @@ const Page = () => {
         <br />
         <Schedule
           time='15/04/2026. (In Physics 222)' //ANALYSIS
-          speaker='TBC'
+          speaker='Yunlong Xu'
           // title='TBC'
           // abstract='TBC'
           // slides='/'
