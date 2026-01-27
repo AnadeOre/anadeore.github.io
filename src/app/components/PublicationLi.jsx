@@ -34,8 +34,8 @@ const PublicationLi = ({
         {index < coauthors.length - 2
           ? ', '
           : index == coauthors.length - 1
-          ? ''
-          : ' and '}
+            ? ''
+            : ' and '}
       </>
     ));
   };
@@ -44,12 +44,12 @@ const PublicationLi = ({
     <li key={arxiv}>
       <Latex>{title}</Latex>{' '}
       {coauthors ? <>(with {renderAuthors(coauthors)}), </> : ', '}
-      <Link href={arxiv} target='_blank' className='linkDecor'>
-        arXiv
-      </Link>
-      .
-      <br />
-      {journal ? <b>{journal}</b> : `Submitted (${year})`}{' '}
+      {/* <br /> */}
+      {journal ? (
+        <span className='cursive'>{journal}</span>
+      ) : (
+        `Submitted (${year})`
+      )}{' '}
       {tap ? ` (to appear)` : ''}
       {info ? `, ${info}` : ''}{' '}
       {doi
@@ -76,6 +76,11 @@ const PublicationLi = ({
       ) : (
         ''
       )}
+      <br />
+      <Link href={arxiv} target='_blank' className='linkDecorButton'>
+        arXiv
+      </Link>
+      <br />
       <br />
     </li>
   );
