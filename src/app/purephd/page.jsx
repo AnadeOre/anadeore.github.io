@@ -27,7 +27,7 @@ const Page = () => {
         <Schedule
           time='11/02/2026' //ANALYSIS (Fabian?)
           speaker='TBC'
-          title='TBC'
+          // title='TBC'
           // abstract='TBC'
           // slides='/'
         />
@@ -35,7 +35,7 @@ const Page = () => {
         <Schedule
           time='25/02/2026' //ALGEBRA
           speaker='TBC'
-          title='TBC'
+          // title='TBC'
           // abstract='TBC'
           // slides='/'
         />
@@ -43,7 +43,7 @@ const Page = () => {
         <Schedule
           time='18/03/2026' //ANALYSIS (Firdavs?)
           speaker='TBC'
-          title='TBC'
+          // title='TBC'
           // abstract='TBC'
           // slides='/'
         />
@@ -51,7 +51,7 @@ const Page = () => {
         <Schedule
           time='01/04/2026' //ALGEBRA
           speaker='TBC'
-          title='TBC'
+          // title='TBC'
           // abstract='TBC'
           // slides='/'
         />
@@ -59,7 +59,7 @@ const Page = () => {
         <Schedule
           time='15/04/2026. (In Physics 222)' //ANALYSIS
           speaker='TBC'
-          title='TBC'
+          // title='TBC'
           // abstract='TBC'
           // slides='/'
         />
@@ -67,7 +67,7 @@ const Page = () => {
         <Schedule
           time='29/04/2026' //ALGEBRA
           speaker='TBC'
-          title='TBC'
+          // title='TBC'
           // abstract="TBC"
           // slides='/'
         />
