@@ -57,7 +57,7 @@ const Page = () => {
         />
         <br />
         <Schedule
-          time='15/04/2026' //ANALYSIS
+          time='15/04/2026. (In Physics 222)' //ANALYSIS
           speaker='TBC'
           title='TBC'
           // abstract='TBC'
