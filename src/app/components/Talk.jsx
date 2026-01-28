@@ -7,20 +7,7 @@ const Talk = ({title, where, link, event, when, abstract, slides}) => {
   const [viewAbstract, setViewAbstract] = useState(false);
   return (
     <li key={title}>
-      <p>
-        {title}
-        {slides !== undefined ? (
-          <>
-            <Link href={slides} target='_blank' className='linkDecor'>
-              {' '}
-              Slides
-            </Link>
-            .
-          </>
-        ) : (
-          ''
-        )}
-      </p>{' '}
+      <p>{title}</p>{' '}
       <div className={styles.indentedSection}>
         <p className={styles.fewmarginparagraph}>
           <Link href={link} target='_blank' className='linkDecor'>
@@ -41,6 +28,15 @@ const Talk = ({title, where, link, event, when, abstract, slides}) => {
         ) : (
           ''
         )} */}
+        {slides !== undefined ? (
+          <>
+            <Link href={slides} target='_blank' className='linkDecorButton'>
+              Slides
+            </Link>
+          </>
+        ) : (
+          ''
+        )}
       </div>
     </li>
   );
