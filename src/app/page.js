@@ -20,6 +20,45 @@ export default function Home() {
           <figcaption className={styles.imageCaption}>
             Me (left) with a Highland Cow.
           </figcaption>
+          <br />
+          <div className={styles.identifiers}>
+            <Link
+              className='linkDecor'
+              href='https://orcid.org/0009-0005-6958-896X'
+              target='_blank'>
+              {/* ORCID */}
+              <Image
+                src='/Logos/ORCID.svg'
+                width={45}
+                height={45}
+                alt='ORCID'
+              />
+            </Link>{' '}
+            <Link
+              className='linkDecor'
+              href='http://arxiv.org/a/deorellana_a_1'
+              target='_blank'>
+              {/* arXiv */}
+              <Image
+                src='/Logos/ArxivLogo.png'
+                width={30}
+                height={45}
+                alt='ORCID'
+              />
+            </Link>{' '}
+            <Link
+              className='linkDecor'
+              href='https://scholar.google.co.uk/citations?user=U6vkEe4AAAAJ&hl=en&oi=ao'
+              target='_blank'>
+              {/* Google Scholar */}
+              <Image
+                src='/Logos/GoogleScholar.png'
+                width={45}
+                height={45}
+                alt='ORCID'
+              />
+            </Link>
+          </div>
         </div>
         <div className={styles.description}>
           <p>
@@ -95,6 +134,8 @@ export default function Home() {
           </p>
         </div>
       </div>
+      {/* <br /> */}
+
       <br />
       <address className={styles.address}>
         <h3>Contact Details</h3>

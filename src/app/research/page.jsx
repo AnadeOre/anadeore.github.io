@@ -3,12 +3,48 @@ import Link from 'next/link';
 import DissertationDiv from '../components/DissertationDiv';
 import PublicationLi from '../components/PublicationLi';
 import Header from '../components/Header';
+import Image from 'next/image';
 
 const Page = () => {
   return (
     <div>
       <Header />
-      <h1>Research</h1>
+      <h1>
+        Research {/* <div> */}
+        {/* <b>My identifiers:</b> <br /> */}
+        <Link
+          className='linkDecor'
+          href='https://orcid.org/0009-0005-6958-896X'
+          target='_blank'>
+          {/* ORCID */}
+          <Image src='/Logos/ORCID.svg' width={30} height={30} alt='ORCID' />
+        </Link>{' '}
+        <Link
+          className='linkDecor'
+          href='http://arxiv.org/a/deorellana_a_1'
+          target='_blank'>
+          {/* arXiv */}
+          <Image
+            src='/Logos/ArxivLogo.png'
+            width={22}
+            height={30}
+            alt='ORCID'
+          />
+        </Link>{' '}
+        <Link
+          className='linkDecor'
+          href='https://scholar.google.co.uk/citations?user=U6vkEe4AAAAJ&hl=en&oi=ao'
+          target='_blank'>
+          {/* Google Scholar */}
+          <Image
+            src='/Logos/GoogleScholar.png'
+            width={30}
+            height={30}
+            alt='ORCID'
+          />
+        </Link>
+        {/* </div> */}
+      </h1>
       <p>
         I'm interested in how tools from Fourier analysis can reveal information
         about how structured/random sets are. 'Traditional' notions of dimension
@@ -25,30 +61,7 @@ const Page = () => {
         in exploring how ideas from dimension theory can shed light on
         restriction-type problems for fractal measures.
       </p>
-      <div>
-        <b>My identifiers:</b>{' '}
-        <Link
-          className='linkDecor'
-          href='https://orcid.org/0009-0005-6958-896X'
-          target='_blank'>
-          ORCID
-        </Link>
-        ,{' '}
-        <Link
-          className='linkDecor'
-          href='http://arxiv.org/a/deorellana_a_1'
-          target='_blank'>
-          arXiv
-        </Link>
-        ,{' '}
-        <Link
-          className='linkDecor'
-          href='https://scholar.google.co.uk/citations?user=U6vkEe4AAAAJ&hl=en&oi=ao'
-          target='_blank'>
-          Google Scholar
-        </Link>
-        .
-      </div>
+
       <h3>Preprints</h3>
       <ol start='4' reversed>
         <PublicationLi
