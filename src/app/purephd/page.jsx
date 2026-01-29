@@ -34,7 +34,7 @@ const Page = () => {
         <br />
         <Schedule
           time='25/02/2026' //ALGEBRA
-          speaker='TBC'
+          speaker='Victoria Ironmonger'
           // title='TBC'
           // abstract='TBC'
           // slides='/'
