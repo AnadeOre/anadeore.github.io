@@ -8,7 +8,7 @@ const Page = () => {
   return (
     <div>
       <HeaderEvent eventURL={'purephd/martinmas2526'} photos={false} />
-      <h1>Pure Maths PhDs Seminar - Martinmas semester 2025-2026</h1>
+      <h1>Pure Maths PhDs Seminar - Autumn semester 2025-2026</h1>
       <p>
         The Pure PhDs Seminar will run every{' '}
         <strong>odd week on Wednesdays at 16:00 in Lecture Theatre C</strong> of
