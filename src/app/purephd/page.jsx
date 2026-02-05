@@ -66,7 +66,7 @@ const Page = () => {
         <br />
         <Schedule
           time='29/04/2026' //ALGEBRA
-          speaker='TBC'
+          speaker='Theodor Thorbjornsen'
           // title='TBC'
           // abstract="TBC"
           // slides='/'
