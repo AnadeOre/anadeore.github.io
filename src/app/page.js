@@ -29,8 +29,8 @@ export default function Home() {
               {/* ORCID */}
               <Image
                 src='/Logos/ORCID.svg'
-                width={45}
-                height={45}
+                width={30}
+                height={30}
                 alt='ORCID'
               />
             </Link>{' '}
@@ -41,8 +41,8 @@ export default function Home() {
               {/* arXiv */}
               <Image
                 src='/Logos/ArxivLogo.png'
-                width={30}
-                height={45}
+                width={18}
+                height={30}
                 alt='ORCID'
               />
             </Link>{' '}
@@ -53,8 +53,8 @@ export default function Home() {
               {/* Google Scholar */}
               <Image
                 src='/Logos/GoogleScholar.png'
-                width={45}
-                height={45}
+                width={30}
+                height={30}
                 alt='ORCID'
               />
             </Link>
