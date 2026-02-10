@@ -80,8 +80,9 @@ const PublicationLi = ({
       <Link href={arxiv} target='_blank' className='linkDecorButton'>
         arXiv
       </Link>
-      <br />
-      <br />
+      {/* <br/>
+      <br/> */}
+      <hr className="invisibleHr" />
     </li>
   );
 };
