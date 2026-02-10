@@ -65,7 +65,7 @@ const Page = () => {
       <h3>Preprints</h3>
       <ol start='5' reversed>
         <PublicationLi
-          title='Multiple convolutions and multilinear fractal Fourier restriction'
+          title='Multiple convolutions and multilinear fractal Fourier extension estimates'
           coauthors={[
             {
               name: 'I. Oliveira',
