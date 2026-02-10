@@ -63,7 +63,19 @@ const Page = () => {
       </p>
 
       <h3>Preprints</h3>
-      <ol start='4' reversed>
+      <ol start='5' reversed>
+        <PublicationLi
+          title='Multiple convolutions and multilinear fractal Fourier restriction'
+          coauthors={[
+            {
+              name: 'I. Oliveira',
+              website: 'https://sites.google.com/view/itamaroliveira/home',
+            },
+          ]}
+          year='2026'
+          arxiv='https://arxiv.org/abs/2602.08568'
+          abstract="The classical Stein--Tomas theorem extends the theory of linear Fourier restriction estimates from smooth manifolds to fractal measures exhibiting Fourier decay. In the multilinear setting, transversality allows for Fourier extension estimates that go beyond those implied by the linear theory to hold. We establish a multilinear Fourier extension estimate for measures whose convolution belongs to an $L^p$ space, applicable to known results by Shmerkin and Solomyak that exploit 'transversality' between self-similar measures. Moreover, we generalise work by Hambrook--Laba and Chen from the linear setting to obtain Knapp-type examples for multilinear estimates; we obtain two necessary conditions: one in terms of the upper box dimension of the measures' supports, and another one in terms of their Fourier decay and a ball condition. In particular, these conditions give a more restrictive range compared with previously known results whenever the convolution of the measures at play is singular."
+        />
         <PublicationLi
           title='Fourier restriction for the additive Brownian sheet'
           coauthors={[
