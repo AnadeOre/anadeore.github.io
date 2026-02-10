@@ -27,8 +27,8 @@ const Page = () => {
         <Schedule
           time='11/02/2026' //ANALYSIS (Fabian?)
           speaker='Fabian Despinoy'
-          // title='TBC'
-          // abstract='TBC'
+          title='On Measures of Maximal Dimension'
+          abstract="The dimension of a fractal set can often be understood through considering the measures that it supports. We will examine some classical dimension results in the field, moving from similarity, non-linear and then to self-affine iterated function systems while exploring the appearances measures of maximal dimension through thermodynamic formalism.  Finally, we describe a direct application of these types of measures in explaining Käenmäki's proof of a Folklore open question for dimension $d>2$"
           // slides='/'
         />
         <br />
