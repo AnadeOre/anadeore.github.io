@@ -35,8 +35,8 @@ const Page = () => {
         <Schedule
           time='25/02/2026' //ALGEBRA
           speaker='Victoria Ironmonger'
-          // title='TBC'
-          // abstract='TBC'
+          title='Atomicity, bicycles and combinatorial dreams'
+          abstract="I'll be talking about partially ordered sets (posets) of combinatorial structures (such words and graphs) in which two structures are related when one is a substructure of the other, in some sense.  Such a poset is atomic if it cannot be expressed as the union of two (proper, downward closed) subsets.  Assuming no prior knowledge, I'll introduce atomicity and outline some recent results for structures under consecutive orders."
           // slides='/'
         />
         <br />
