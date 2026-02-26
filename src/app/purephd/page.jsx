@@ -41,8 +41,8 @@ const Page = () => {
         />
         <br />
         <Schedule
-          time='18/03/2026' //ANALYSIS (Firdavs?)
-          speaker='TBC'
+          time='11/03/2026' //ANALYSIS 
+          speaker='Ana E. de Orellana'
           // title='TBC'
           // abstract='TBC'
           // slides='/'
@@ -50,7 +50,7 @@ const Page = () => {
         <br />
         <Schedule
           time='01/04/2026' //ALGEBRA
-          speaker='TBC'
+          speaker='Simun Dropuljic'
           // title='TBC'
           // abstract='TBC'
           // slides='/'
