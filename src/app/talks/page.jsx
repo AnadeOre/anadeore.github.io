@@ -10,14 +10,14 @@ const Teaching = () => {
       <h2>Future</h2>
       <ol start='16' reversed>
         <Talk
-          title='TBA'
+          title='Multifractal measures and the Fourier restriction problem'
           event='Geometric measure theory and Metric geometry'
           where='University of Warwick, UK'
           link='https://sites.google.com/view/emanuelecaputo/home-page/conference-geometric-measure-theory-and-metric-geometry'
           when='Mar. 2026'
         />
         <Talk
-          title='TBA'
+          title='Multifractal measures and $L^2$ Fourier restriction'
           event='Dynamical Systems seminar'
           where='University of Loughborough, UK'
           link='https://www.lboro.ac.uk/departments/maths/events/seminars/dynamical-systems-seminar/'
