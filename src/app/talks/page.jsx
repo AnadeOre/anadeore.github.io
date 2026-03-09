@@ -18,13 +18,6 @@ const Teaching = () => {
         />
         <Talk
           title='TBA'
-          event="Young Functional Analysts' Workshop"
-          where='Cardiff University, UK'
-          link='https://sites.google.com/site/yfawuk/'
-          when='Mar. 2026'
-        />
-        <Talk
-          title='TBA'
           event='Dynamical Systems seminar'
           where='University of Loughborough, UK'
           link='https://www.lboro.ac.uk/departments/maths/events/seminars/dynamical-systems-seminar/'
