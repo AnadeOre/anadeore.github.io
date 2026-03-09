@@ -43,8 +43,8 @@ const Page = () => {
         <Schedule
           time='11/03/2026' //ANALYSIS 
           speaker='Ana E. de Orellana'
-          // title='TBC'
-          // abstract='TBC'
+          title='Fractal measures and the Fourier restriction problem'
+          abstract='In this talk we will explore the Fourier restriction problem and its connections with Fractal geometry. We will learn about the $L^q$ dimensions as a way of capturing the “roughness” of a fractal measure, and see how these dimensions give rise to new Fourier restriction estimates.'
           // slides='/'
         />
         <br />
