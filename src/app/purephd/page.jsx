@@ -51,8 +51,8 @@ const Page = () => {
         <Schedule
           time='01/04/2026' //ALGEBRA
           speaker='Simun Dropuljic'
-          // title='TBC'
-          // abstract='TBC'
+          title='Gonality Sequences of Graphs'
+          abstract='In this talk, I will introduce the Baker–Norine theory of divisors on graphs through the language of chip-firing games. The focus will be on the gonality sequences, a combinatorial invariant of graphs that offers insight into their geometry. After giving definitions and examples, I will present some recent results on gonality sequences, as well as several open problems in the area.'
           // slides='/'
         />
         <br />
