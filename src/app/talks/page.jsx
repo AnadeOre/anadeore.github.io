@@ -8,7 +8,24 @@ const Teaching = () => {
       <Header />
       <h1>Talks</h1>
       <h2>Future</h2>
-      <ol start='16' reversed>
+      <ol start='17' reversed>
+        <Talk
+          title='Multifractal measures and $L^2$ Fourier restriction'
+          event='Simons Semester 2026 Conference'
+          where='IMPAN Warsaw, Poland'
+          link='https://sites.google.com/impan.pl/simons-cfd2026/conference'
+          when='May. 2026'
+        />
+        <Talk
+          title='Fourier restriction and a continuum of dimensions'
+          event='Fractals and Related Fields V'
+          where='Porquerolles Island, France'
+          link='https://farf5.math.cnrs.fr'
+          when='Jun. 2026'
+        />
+      </ol>
+      <h2>Past</h2>
+      <ol reversed>
         <Talk
           title='Multifractal measures and the Fourier restriction problem'
           event='Geometric measure theory and Metric geometry'
@@ -16,16 +33,6 @@ const Teaching = () => {
           link='https://sites.google.com/view/emanuelecaputo/home-page/conference-geometric-measure-theory-and-metric-geometry'
           when='Mar. 2026'
         />
-        <Talk
-          title='Multifractal measures and $L^2$ Fourier restriction'
-          event='Dynamical Systems seminar'
-          where='University of Loughborough, UK'
-          link='https://www.lboro.ac.uk/departments/maths/events/seminars/dynamical-systems-seminar/'
-          when='Mar. 2026'
-        />
-      </ol>
-      <h2>Past</h2>
-      <ol reversed>
         <Talk
           title='Fourier restriction and fractal dimensions'
           event='Workshop on Regularity Theory of PDEs and Calculus of Variations'
