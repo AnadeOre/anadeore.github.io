@@ -17,14 +17,14 @@ const Teaching = () => {
         <li>
           <h3>
             Academic Tutor and Demonstrator:{' '}
-            <span style={style}>Sep. 2023 - Dec. 2025</span>
+            <span style={style}>Sep. 2023 - May. 2026</span>
           </h3>
           <div className={styles.indentedSection}>
             <p>
               Tutor at the University of St Andrews for a variety of pure and
               applied undergraduate mathematics modules. Marking summative and
-              formative assessment for over 150 students. Demonstrator for over
-              550 students in examples classes.
+              formative assessment for over 290 students. Demonstrator for over
+              650 students in examples classes.
             </p>
           </div>
         </li>
