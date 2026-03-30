@@ -10,18 +10,18 @@ const Teaching = () => {
       <h2>Future</h2>
       <ol start='17' reversed>
         <Talk
-          title='Multifractal measures and $L^2$ Fourier restriction'
-          event='Simons Semester 2026 Conference'
-          where='IMPAN Warsaw, Poland'
-          link='https://sites.google.com/impan.pl/simons-cfd2026/conference'
-          when='May. 2026'
-        />
-        <Talk
           title='Fourier restriction and a continuum of dimensions'
           event='Fractals and Related Fields V'
           where='Porquerolles Island, France'
           link='https://farf5.math.cnrs.fr'
           when='Jun. 2026'
+        />
+        <Talk
+          title='Multifractal measures and $L^2$ Fourier restriction'
+          event='Simons Semester 2026 Conference'
+          where='IMPAN Warsaw, Poland'
+          link='https://sites.google.com/impan.pl/simons-cfd2026/conference'
+          when='May. 2026'
         />
       </ol>
       <h2>Past</h2>
