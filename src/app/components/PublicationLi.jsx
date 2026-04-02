@@ -17,7 +17,9 @@ const PublicationLi = ({
   journal,
   doi,
   tap,
-  info,
+  issue,
+  vol,
+  pages,
   abstract,
 }) => {
   const [viewAbstract, setViewAbstract] = useState(false);
@@ -43,15 +45,20 @@ const PublicationLi = ({
   return (
     <li key={arxiv}>
       <Latex>{title}</Latex>{' '}
-      {coauthors ? <>(with {renderAuthors(coauthors)}), </> : ', '}
-      {/* <br /> */}
-      {journal ? (
+      {coauthors ? <>(with {renderAuthors(coauthors)}). </> : ', '}
+      <br />
+      {vol ? (
+        <span className='cursive'>{journal} <strong>{vol}</strong> {issue}, pp. {pages}</span>
+      ) : <>
+         {journal ? (
         <span className='cursive'>{journal}</span>
-      ) : (
+
+         ) :
+         (
         `Submitted (${year})`
-      )}{' '}
+      )}
+      </>}{' '}
       {tap ? ` (to appear)` : ''}
-      {info ? `, ${info}` : ''}{' '}
       {doi
         ? `, ${(
             <Link href={doi} target='_blank' className='linkDecor'>
