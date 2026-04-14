@@ -59,8 +59,8 @@ const Page = () => {
         <Schedule
           time='15/04/2026. (In Physics 222)' //ANALYSIS
           speaker='Yunlong Xu'
-          // title='TBC'
-          // abstract='TBC'
+          title='Dimensions of orbital sets in complex dynamics'
+          abstract='We investigate the box dimension of orbital sets in complex dynamics. In particular, we are interested in the relationship between the box dimension of the orbital set and the box dimension of the associated Julia set for any rational map with degree at least 2 defined on Riemann sphere. Joint work with Jonathan Fraser.'
           // slides='/'
         />
         <br />
