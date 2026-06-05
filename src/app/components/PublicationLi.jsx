@@ -21,6 +21,7 @@ const PublicationLi = ({
   vol,
   pages,
   abstract,
+  article
 }) => {
   const [viewAbstract, setViewAbstract] = useState(false);
   const renderAuthors = (coauthors) => {
@@ -87,6 +88,12 @@ const PublicationLi = ({
       <Link href={arxiv} target='_blank' className='linkDecorButton'>
         arXiv
       </Link>
+      {article !== undefined ? (
+        <Link href={arxiv} target='_blank' className='linkDecorButton'>
+        Article
+      </Link>
+      )
+    : ''}
       {/* <br/>
       <br/> */}
       <hr className="invisibleHr" />
