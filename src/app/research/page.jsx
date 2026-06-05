@@ -126,6 +126,7 @@ const Page = () => {
           issue='(2026)'
           pages='2005-2027'
           arxiv='https://arxiv.org/abs/2403.12603'
+          article='https://pubs.ams.org/PROC/2026-154-05/S0002-9939-2026-17610-4'
           abstract='The Fourier spectrum is a family of dimensions that interpolates between the Fourier and Hausdorff dimensions and are defined in terms of certain energies which capture Fourier decay. In this paper we obtain a convenient discrete representation of those energies using the Fourier coefficients. As an example application, we use this representation to establish sharp bounds for the Fourier spectrum of a general measure with bounded support, improving previous estimates of the second-named author.'
         />
         <PublicationLi
