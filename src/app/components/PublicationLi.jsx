@@ -89,7 +89,7 @@ const PublicationLi = ({
         arXiv
       </Link>
       {article !== undefined ? (
-        <Link href={arxiv} target='_blank' className='linkDecorButton'>
+        <Link href={article} target='_blank' className='linkDecorButton'>
         Article
       </Link>
       )
