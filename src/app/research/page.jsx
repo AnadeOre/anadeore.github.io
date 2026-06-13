@@ -66,7 +66,7 @@ const Page = () => {
       <ol start='6' reversed>
         
         <PublicationLi
-          title='Fourier  restriction  estimates based on $L^q$-dimensions: beyond Stein--Tomas'
+          title='Fourier  restriction  estimates based on $L^q$-dimensions: beyond Stein—Tomas'
           coauthors={[
             {
               name: 'M. Carnovale',
@@ -80,6 +80,18 @@ const Page = () => {
           year='2026'
           arxiv='https://arxiv.org/abs/2606.07143'
           abstract="The well-known Stein--Tomas restriction theorem gives the sharp range of $p$ for which $L^p\to L^2$ restriction estimates hold for the surface measure on the sphere. This was generalised to arbitrary measures satisfying certain Fourier decay and Frostman conditions by Mockenhaupt, Mitsis, and Bak--Seeger, with the most general version now a fundamental result in harmonic analysis. The Frostman condition essentially asks for uniform control on the measure of small balls and is the endpoint of a continuum of more nuanced conditions which describe the local fluctuations of the measure. This analysis  gives rise to the $L^q$-dimensions of a measure and these are a central concept in fractal geometry and a crucial tool in multifractal analysis and the theory of large deviations. In this paper we prove a new Fourier restriction theorem which uses the $L^q$-dimensions instead of the Frostman condition, thus providing a continuum of estimates which recover Stein--Tomas at the endpoint. Our proof gives the endpoint estimate for all values of $q\in(1,\infty]$ via Stein's complex interpolation. In particular, in the case $q=\infty$ this partially resolves a question raised by Bak and Seeger. We explore when our theorem improves on Stein--Tomas, that is, when the range is not optimised at $q=\infty$, and show that this is the case quite generally, including for certain  Mandelbrot cascade measures and measures with multifractal behaviour. On the way to proving our main theorem we obtain a novel description of the $L^q$-dimensions based on certain convolution norms, which may be of interest in its own right."
+        />        
+        <PublicationLi
+          title='Multiple convolutions and multilinear fractal Fourier restriction'
+          coauthors={[
+            {
+              name: 'I. Oliveira',
+              website: 'https://sites.google.com/view/itamaroliveira/home',
+            },
+          ]}
+          year='2026'
+          arxiv='https://arxiv.org/abs/2602.08568'
+          abstract="The classical Stein--Tomas theorem extends the theory of linear Fourier restriction estimates from smooth manifolds to fractal measures exhibiting Fourier decay. In the multilinear setting, transversality allows for Fourier extension estimates that go beyond those implied by the linear theory to hold. We establish a multilinear Fourier extension estimate for measures whose convolution belongs to an $L^p$ space, applicable to known results by Shmerkin and Solomyak that exploit 'transversality' between self-similar measures. Moreover, we generalise work by Hambrook--Laba and Chen from the linear setting to obtain Knapp-type examples for multilinear estimates; we obtain two necessary conditions: one in terms of the upper box dimension of the measures' supports, and another one in terms of their Fourier decay and a ball condition. In particular, these conditions give a more restrictive range compared with previously known results whenever the convolution of the measures at play is singular."
         />
         <PublicationLi
           title='Fourier restriction for the additive Brownian sheet'
