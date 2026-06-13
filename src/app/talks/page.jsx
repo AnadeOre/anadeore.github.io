@@ -7,18 +7,20 @@ const Teaching = () => {
     <div>
       <Header />
       <h1>Talks</h1>
-      <h2>Future</h2>
+      {/* <h2>Future</h2>
       <ol start='16' reversed>
+        
+      </ol>
+      <h2>Past</h2> */}
+      <ol reversed>
         <Talk
           title='Fourier restriction and a continuum of dimensions'
           event='Fractals and Related Fields V'
           where='Porquerolles Island, France'
           link='https://farf5.math.cnrs.fr'
           when='Jun. 2026'
+          slides='/Slides/FARF5.pdf'
         />
-      </ol>
-      <h2>Past</h2>
-      <ol reversed>
         <Talk
           title='Multifractal measures and the Fourier restriction problem'
           event='Geometric measure theory and Metric geometry'
