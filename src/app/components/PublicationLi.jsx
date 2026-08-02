@@ -49,7 +49,7 @@ const PublicationLi = ({
       {coauthors ? <>(with {renderAuthors(coauthors)}). </> : ', '}
       <br />
       {vol ? (
-        <span className='cursive'>{journal} <strong>{vol}</strong> {issue}, pp. {pages}</span>
+        <span className='cursive'>{journal} <strong>{vol}</strong> {issue}{year ? ` ${year}` : ''}, pp. {pages}</span>
       ) : <>
          {journal ? (
         <span className='cursive'>{journal}</span>
