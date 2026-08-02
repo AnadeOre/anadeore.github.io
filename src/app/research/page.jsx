@@ -160,7 +160,7 @@ const Page = () => {
               website: 'https://jonathan-fraser.github.io/homepage/',
             },
           ]}
-          year='2026'
+          year='(2026)'
           vol='75'
           issue='No. 3'
           pages='679-707'
