@@ -63,8 +63,12 @@ export default function Home() {
         </div>
         <div className={styles.description}>
           <p>
-            I am a third year Maths PhD student at the University of St Andrews,
-            supervised by{' '}
+            I am a mathemathics postdoctoral researcher at the University of Jyväskylä working with <Link
+              className='linkDecor'
+              target='_blank'
+              href='https://sites.google.com/view/tuomaths/home?authuser=0'>
+              Tuomas Orponen
+            </Link>. I did my PhD at the University of St Andrews supervised by{' '}
             <Link
               className='linkDecor'
               target='_blank'
@@ -142,27 +146,27 @@ export default function Home() {
         <h3>Contact Details</h3>
         <Link
           className='linkDecor'
-          href='mailto:aedo1@st-andrews.ac.uk'
+          href='mailto:ana.e.deorellana@jyu.fi'
           target='_blank'>
-          aedo1@st-andrews.ac.uk
+          ana.e.deorellana@jyu.fi
         </Link>
         <br />
-        Room 103, Mathematics Institute
+        Department of Mathematics and Statistics
         <br />
-        University of St Andrews
+        University Jyväskylä
         <br />
-        North Haugh, St Andrews
+        Agora Building, Jyväskylä
         <br />
-        KY16 9SS
+        FI-40014
         <br />
-        Scotland, UK
-        <br />
+        Finland
+        {/* <br />
         <Link
           href='https://research-portal.st-andrews.ac.uk/en/persons/ana-emilia-de-orellana'
           target='_blank'
           className='linkDecor'>
           St Andrews profile
-        </Link>
+        </Link> */}
       </address>
       {/* <Footer /> */}
     </main>
