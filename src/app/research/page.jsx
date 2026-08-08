@@ -64,9 +64,8 @@ const Page = () => {
 
       <h3>Preprints</h3>
       <ol start='6' reversed>
-        
+             
         <PublicationLi
-        
           title='Fourier  restriction  estimates based on $L^q$-dimensions: beyond Stein—Tomas'
           coauthors={[
             {
@@ -171,8 +170,18 @@ const Page = () => {
         />
       </ol>
       <DissertationDiv
+        title='PhD Thesis (English 🇬🇧)'
+        where='University of St Andrews'
+        when='May 2026'
+        wherelink='https://www.st-andrews.ac.uk/mathematics-statistics/'
+        info='Supervised by Jonathan Fraser and Kenneth Falconer'
+        linkURL='/PhDThesis.pdf'
+        linkDesc='New Perspectives in Harmonic Analysis and Fractal Geometry'
+      />
+      <DissertationDiv
         title='Undergraduate Thesis (Spanish 🇦🇷)'
-        where='UNL-FIQ'
+        where='Universidad Nacional del Litoral'
+        when = 'Mar. 2023'
         wherelink='https://www.fiq.unl.edu.ar'
         info='Supervised by Marisa Toschi and Mauricio Ramseyer'
         linkURL='/UndergradDissertation.pdf'

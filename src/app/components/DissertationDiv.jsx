@@ -5,6 +5,7 @@ import styles from '../styles/list.module.css';
 const DissertationDiv = ({
   title,
   where,
+  when,
   wherelink,
   info,
   linkURL,
@@ -23,7 +24,7 @@ const DissertationDiv = ({
           <Link className='linkDecor' target='_blank' href={wherelink}>
             {where}
           </Link>
-          , Mar. 2023.
+          , {when}.
         </p>
       </div>
     </div>
