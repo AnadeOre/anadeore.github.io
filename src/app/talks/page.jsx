@@ -7,11 +7,17 @@ const Teaching = () => {
     <div>
       <Header />
       <h1>Talks</h1>
-      {/* <h2>Future</h2>
-      <ol start='16' reversed>
-        
+      <h2>Future</h2>
+      <ol start='17' reversed>
+        <Talk
+          title='Finding 3APs in fractal sets'
+          event='Interactions between fractal geometry, harmonic analysis, and dynamical systems - Workshop 1'
+          where='Institut Mittag-Leffler'
+          link='https://www.mittag-leffler.se/activities/interactions-between-fractal-geometry-harmonic-analysis-and-dynamical-systems/#program'
+          when='Sep. 2026'
+        />
       </ol>
-      <h2>Past</h2> */}
+      <h2>Past</h2>
       <ol reversed>
         <Talk
           title='Fourier restriction and a continuum of dimensions'
