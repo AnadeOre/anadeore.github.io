@@ -112,7 +112,7 @@ export default function Home() {
             as part of the HAPDE network together with Jonathan Fraser.
           </p> */}
 
-          <br />
+          {/* <br />
           <p>
             I'm the creator behind the{' '}
             <Link
@@ -136,7 +136,7 @@ export default function Home() {
               programming projects
             </Link>
             , mostly in web development.
-          </p>
+          </p> */}
         </div>
       </div>
       {/* <br /> */}
