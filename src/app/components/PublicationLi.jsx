@@ -46,7 +46,7 @@ const PublicationLi = ({
   return (
     <li key={arxiv}>
       <Latex>{title}</Latex>{' '}
-      {coauthors ? <>(with {renderAuthors(coauthors)}). </> : ', '}
+      {coauthors ? <>(with {renderAuthors(coauthors)}). </> : ', '} {journal ? '': `(${year})`}
       <br />
       {vol ? (
         <span className='cursive'>{journal} <strong>{vol}</strong> {issue}{year ? ` ${year}` : ''}, pp. {pages}</span>
@@ -56,7 +56,7 @@ const PublicationLi = ({
 
          ) :
          (
-        `Submitted (${year})`
+        ``
       )}
       </>}{' '}
       {tap ? ` (to appear)` : ''}
