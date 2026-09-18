@@ -63,8 +63,34 @@ const Page = () => {
       </p>
 
       <h3>Preprints</h3>
-      <ol start='6' reversed>
-             
+      <ol start='7' reversed>
+           <PublicationLi
+          title='On Polynomial Progressions Inside Sets of Large Dimension'
+          coauthors={[
+            {
+              name: 'B. Krause',
+              website: 'https://www.bristol.ac.uk/people/person/Ben-Krause-529bc1e7-bfac-432d-984e-10097df1178e/',
+            },
+          ]}
+          year='2026'
+          arxiv='https://arxiv.org/abs/2508.04680'
+          abstract="In this note we connect Sobolev estimates in the context of polynomial averages e.g.
+\[
+    \| \int_0^1 \prod_{k=1}^m f_k(x-t^k) \|_{1} \leq \text{Const} \cdot 2^{-\text{const} \cdot l} \prod_{i=1}^m \| f_k \|_m
+\]
+whenever some $f_i$ vanishes on $\{ |\xi| \leq 2^l \}$ to the existence of polynomial progressions inside of sets of sufficiently large Hausdorff dimension, in analogy with work of Peluse in the discrete context. Our strongest results builds off work of Becker-Krause and is as follows: suppose that $\mathcal{P} = \{a_{d_1} t^{d_1}, a_{d_2} t^{d_2},\dots, a_{d_k} t^{d_k}\}$ vanish at the origin at different rates, and that $E \subset [0,1]$ has sufficiently large Hausdorff dimension,
+\[ 1 - \text{const}(\mathcal{P}) < \text{dim}_H(E) < 1
+\]
+and Hausdorff content bounded away from zero, sufficiently large in terms of its dimension. Then $E$ contains a non-trivial polynomial progression of the form
+\[
+    \{ x , x - a_{d_1} t^{d_1}, x - a_{d_2} t^{d_2}, \dots, x - a_{d_k} t^{d_k} \} \subset E, \; \; \; t \neq 0.
+\]
+
+Also, using the Fourier spectrum, we provide a short proof that whenever $E$ supports a measure with both positive Fourier dimension and a sufficiently large Frostman condition, it necessarily contains a non-trivial generalized three-term arithmetic progression of the form
+\[ \{ x, x - \gamma_1 t, x- \gamma_2 t\} \subset E, \; \; \; \gamma_i \in \mathbb{Q},\  t \neq 0.\]
+"
+          key={7}
+        />   
         <PublicationLi
           title='Fourier  restriction  estimates based on $L^q$-dimensions: beyond Stein—Tomas'
           coauthors={[
