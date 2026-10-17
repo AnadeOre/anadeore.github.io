@@ -8,17 +8,24 @@ const Teaching = () => {
       <Header />
       <h1>Talks</h1>
       <h2>Future</h2>
-      <ol start='17' reversed>
+      <ol start='18' reversed>
         <Talk
-          title='Finding 3APs in fractal sets'
-          event='Interactions between fractal geometry, harmonic analysis, and dynamical systems - Workshop 1'
-          where='Institut Mittag-Leffler'
-          link='https://www.mittag-leffler.se/activities/interactions-between-fractal-geometry-harmonic-analysis-and-dynamical-systems/#program'
-          when='Sep. 2026'
+          title='An introduction to the Fourier restriction problem for fractal sets'
+          event='Dynamical Systems seminar'
+          where='Uppsala Universitet, Sweden'
+          link='https://www.uu.se/en/department/mathematics/research/dynamical-systems-and-number-theory/seminar-series-in-dynamical-systems-and-number-theory'
+          when='Oct. 2026'
         />
       </ol>
       <h2>Past</h2>
       <ol reversed>
+        <Talk
+          title='Finding 3APs in fractal sets'
+          event='Interactions Between Fractal Geometry, Harmonic Analysis, and Dynamical Systems - Workshop 1'
+          where='Institut Mittag-Leffler'
+          link='https://www.mittag-leffler.se/activities/interactions-between-fractal-geometry-harmonic-analysis-and-dynamical-systems/#program'
+          when='Sep. 2026'
+        />
         <Talk
           title='Fourier restriction and a continuum of dimensions'
           event='Fractals and Related Fields V'
@@ -29,7 +36,7 @@ const Teaching = () => {
         />
         <Talk
           title='Multifractal measures and the Fourier restriction problem'
-          event='Geometric measure theory and Metric geometry'
+          event='Workshop in Geometric Measure Theory and Metric Geometry'
           where='University of Warwick, UK'
           link='https://sites.google.com/view/emanuelecaputo/home-page/conference-geometric-measure-theory-and-metric-geometry'
           when='Mar. 2026'
@@ -43,7 +50,7 @@ const Teaching = () => {
         />
         <Talk
           title='Extending the Stein--Tomas theorem'
-          event='Afternoon workshop in Harmonic Analysis and PDEs'
+          event='Afternoon Workshop in Harmonic Analysis and PDEs'
           where='University of St Andrews, UK'
           link='https://anadeore.github.io/HAPDE'
           when='Apr. 2025'
@@ -57,7 +64,7 @@ const Teaching = () => {
         />
         <Talk
           title='Fourier restriction for multifractals.'
-          event='Ergodic theory and dynamical systems seminar'
+          event='Ergodic Theory and Dynamical Systems Seminar'
           where='University of Bristol, UK'
           link='https://www.bristolmathsresearch.org/events/ergodic-theory-and-dynamical-systems/'
           when='Mar. 2025'
@@ -79,7 +86,7 @@ const Teaching = () => {
         />
         <Talk
           title='Fourier analytic methods for orthogonal projections.'
-          event='Online analysis seminar'
+          event='Online Analysis Seminar'
           where='Shenzhen Technology University, China (online)'
           link='https://bdi.sztu.edu.cn/index.htm'
           when='Oct. 2024'
@@ -102,7 +109,7 @@ const Teaching = () => {
         />
         <Talk
           title='Orthogonal projections and the Fourier spectrum.'
-          event='Afternoon workshop on Fourier analysis, fractals, and finite fields'
+          event='Afternoon Workshop on Fourier Analysis, Fractals, and Finite Fields'
           where='University of St Andrews, UK'
           link='https://jonathan-fraser.github.io/homepage/FFFF.html'
           when='Sep. 2024'
