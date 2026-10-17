@@ -191,6 +191,7 @@ Also, using the Fourier spectrum, we provide a short proof that whenever $E$ sup
           pages='679-707'
           journal='Indiana Univ. Math. J.'
           arxiv='https://arxiv.org/abs/2404.11179'
+          article='https://www.iumj.indiana.edu/oai/2026/75/60839/60839.php'
           abstract="Marstrand's celebrated projection theorem gives the Hausdorff dimension of the orthogonal projection of a Borel set in Euclidean space for almost all orthogonal projections. It is straightforward to see that sets for which the Fourier and Hausdorff dimension coincide have no exceptional projections, that is, all orthogonal projections satisfy the conclusion of Marstrand's theorem. With this in mind, one might believe that the Fourier dimension (or at least, Fourier decay) could be used to give better estimates for the Hausdorff dimension of the exceptional set in general. We obtain projection theorems and exceptional set estimates based on the Fourier spectrum; a family of dimensions that interpolates between the Fourier and Hausdorff dimensions. We apply these results to show that the Fourier spectrum can be used to improve several results for the Hausdorff dimension in certain cases, such as Ren--Wang's sharp bound for the exceptional set in the plane, Peres--Schlag's exceptional set bound and Bourgain--Oberlin's sharp 0-dimensional exceptional set estimate."
           key={1}
         />
