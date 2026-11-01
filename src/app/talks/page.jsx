@@ -7,8 +7,8 @@ const Teaching = () => {
     <div>
       <Header />
       <h1>Talks</h1>
-      <h2>Future</h2>
-      <ol start='18' reversed>
+      {/* <h2>Future</h2> */}
+      {/* <ol start='18' reversed>
         <Talk
           title='An introduction to the Fourier restriction problem for fractal sets'
           event='Dynamical Systems seminar'
@@ -16,9 +16,16 @@ const Teaching = () => {
           link='https://www.uu.se/en/department/mathematics/research/dynamical-systems-and-number-theory/seminar-series-in-dynamical-systems-and-number-theory'
           when='Oct. 2026'
         />
-      </ol>
-      <h2>Past</h2>
+      </ol> */}
+      {/* <h2>Past</h2> */}
       <ol reversed>
+         <Talk
+          title='An introduction to the Fourier restriction problem for fractal sets'
+          event='Dynamical Systems seminar'
+          where='Uppsala Universitet, Sweden'
+          link='https://www.uu.se/en/department/mathematics/research/dynamical-systems-and-number-theory/seminar-series-in-dynamical-systems-and-number-theory'
+          when='Oct. 2026'
+        />
         <Talk
           title='Finding 3APs in fractal sets'
           event='Interactions Between Fractal Geometry, Harmonic Analysis, and Dynamical Systems - Workshop 1'
