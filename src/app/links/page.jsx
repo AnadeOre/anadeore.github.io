@@ -54,6 +54,14 @@ const Page = () => {
               </Link>
             </li>
           </ul>
+          <h3 className={linksStyle.title}>Animations</h3>
+          <ul className={linksStyle.ul}>
+            <NoteLi
+              desc='Generate random cascade measures and see how they change with the distribution of the weights.'
+              title='Mandelbrot cascades'
+              pdf='/cascades'
+            />
+          </ul>
         </div>
       </div>
     </div>
